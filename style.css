@@ -79,3 +79,13 @@ nav a img:hover {
     margin-left: 160px; 
     z-index: -1;
 }
+.perfil-home {
+    position: absolute;
+    width: 360px;
+    margin-top: 90px;
+    margin-left: 830px;
+}
+.perfil-home:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(62, 155, 241, 0.986));
+}
