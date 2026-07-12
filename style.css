@@ -95,3 +95,8 @@ nav a img:hover {
     transform: scale(1.1);
     filter: drop-shadow(15px 4px 0px rgba(62, 155, 241, 0.986));
 }
+.seta-home {
+    position: absolute;
+    pointer-events: none;
+    width: 100px;
+}
