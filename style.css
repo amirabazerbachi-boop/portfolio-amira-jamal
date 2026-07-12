@@ -98,5 +98,9 @@ nav a img:hover {
 .seta-home {
     position: absolute;
     pointer-events: none;
-    width: 100px;
+    width: 300px;
+    margin-left: 600px;
+    margin-top: -60px;
+    transform: rotate(-10deg);
+
 }
