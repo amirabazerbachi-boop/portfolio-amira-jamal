@@ -37,3 +37,7 @@ nav a img {
 nav a img:hover {
     transform: scale(1.1);
 }
+.sobre-mim:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(4px 4px 0px rgba(224, 21, 140, 0.849));
+}
