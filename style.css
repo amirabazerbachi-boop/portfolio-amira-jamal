@@ -53,3 +53,7 @@ nav a img:hover {
     transform: scale(1.1);
     filter: drop-shadow(4px 4px 0px rgba(148, 18, 199, 0.849));
 }
+.link-home:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(4px 4px 0px rgba(148, 18, 199, 0.849));
+}
