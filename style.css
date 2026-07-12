@@ -102,5 +102,12 @@ nav a img:hover {
     margin-left: 600px;
     margin-top: -60px;
     transform: rotate(-10deg);
-
+}
+.traços-home {
+    position: absolute;
+    pointer-events: none;
+    width: 140px;
+    margin-left: 1070px;
+    margin-top: -2px;
+    transform: rotate(-18deg);
 }
