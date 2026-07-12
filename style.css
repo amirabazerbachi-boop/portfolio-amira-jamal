@@ -5,6 +5,7 @@ body {
     background-size: 100% 30px;
     background-repeat: repeat;
     position: relative;
+    
 }
 header{
     background-color: #f897c5;
@@ -15,6 +16,7 @@ header{
     align-items: center;
     height: 70px; 
     overflow: visible;
+    
 }
 nav{
     display: flex;
@@ -60,6 +62,7 @@ nav a img:hover {
 }
 .caderno-home {
     position: absolute;
+    pointer-events: none;
     width: 580px;
     height: auto;
     margin-left: -15px;
@@ -67,6 +70,7 @@ nav a img:hover {
 }
 .titulo-home {
     position: absolute;
+    pointer-events: none;
     width: 590px;
     margin-top: -70px;
     margin-left: 230px; 
@@ -74,6 +78,7 @@ nav a img:hover {
 }
 .saudação-home {
     position: absolute;
+    pointer-events: none;
     width: 520px;
     margin-top: 155px;
     margin-left: 160px; 
@@ -81,6 +86,7 @@ nav a img:hover {
 }
 .perfil-home {
     position: absolute;
+    pointer-events: none;
     width: 360px;
     margin-top: 90px;
     margin-left: 830px;
