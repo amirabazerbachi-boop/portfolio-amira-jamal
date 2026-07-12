@@ -41,3 +41,15 @@ nav a img:hover {
     transform: scale(1.1);
     filter: drop-shadow(4px 4px 0px rgba(224, 21, 140, 0.849));
 }
+.projetos:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(4px 4px 0px rgba(255, 223, 81, 0.938));
+}
+.habilidades:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(4px 4px 0px rgba(19, 185, 197, 0.918));
+}
+.contato:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(4px 4px 0px rgba(148, 18, 199, 0.849));
+}
