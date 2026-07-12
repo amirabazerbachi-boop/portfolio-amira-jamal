@@ -1,0 +1,32 @@
+body {
+    overflow-x: hidden;
+    background-color: #fff8e1;
+    background-image: linear-gradient(#ebe4ce 1px, transparent 1px);
+    background-size: 100% 30px;
+    background-repeat: repeat;
+}
+header{
+    background-color: #f897c5;
+    padding: 35px;
+    margin: -18px;
+}
+.logo {
+    height: 80px;
+    display: block;
+    position: relative;
+    z-index: 10;
+    top: -95px;
+    left: -10px;
+}
+.sobre-mim {
+    height: 80px;
+}
+.projetos {
+    height: 80px;
+}
+.habilidades {
+    height: 80px;
+}
+.contato {
+    height: 80px;
+}
