@@ -118,14 +118,6 @@ nav a img:hover {
     margin-left: 1190px;
     margin-top: 8px;
 }
-.coração-roxo-home {
-    position: absolute;
-    pointer-events: none;
-    width: 380px;
-    margin-left: 630px;
-    margin-top: 370px;
-    z-index: 1;
-}
 .deco-direita-home {
     position: absolute;
     pointer-events: none;
@@ -139,4 +131,20 @@ nav a img:hover {
     width: 1351px;
     margin-top: 571px;
     margin-left:-8px;
+}
+.separador-home {
+    position: absolute;
+    pointer-events: none;
+    width: 1351px;
+    transform: rotate(90deg);
+    margin-top: -48px;
+    margin-left:-8px;
+}
+.caderno-2-home {
+    position: absolute;
+    pointer-events: none;
+    width: 1300px;
+    margin-top: 680px;
+    margin-left:-8px;
+
 }
