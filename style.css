@@ -111,3 +111,32 @@ nav a img:hover {
     margin-top: -2px;
     transform: rotate(-18deg);
 }
+.postit-1-home {
+    position: absolute;
+    pointer-events: none;
+    width: 180px;
+    margin-left: 1190px;
+    margin-top: 8px;
+}
+.coração-roxo-home {
+    position: absolute;
+    pointer-events: none;
+    width: 380px;
+    margin-left: 630px;
+    margin-top: 370px;
+    z-index: 1;
+}
+.deco-direita-home {
+    position: absolute;
+    pointer-events: none;
+    width: 340px;
+    margin-left: 1003px;
+    margin-top: 230px;
+}
+.fundo-home {
+    position: absolute;
+    pointer-events: none;
+    width: 1351px;
+    margin-top: 571px;
+    margin-left:-8px;
+}
