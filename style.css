@@ -7,26 +7,34 @@ body {
 }
 header{
     background-color: #f897c5;
-    padding: 35px;
-    margin: -18px;
+    padding: -10px;
+    margin: -8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px; 
+    overflow: visible;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:80px;
+    padding-right: 130px;
 }
 .logo {
     height: 80px;
+    width: auto;
     display: block;
     position: relative;
     z-index: 10;
-    top: -95px;
-    left: -10px;
+    top: 35px;
+    left: 70px;
 }
-.sobre-mim {
-    height: 80px;
+nav a img {
+    height: 150px;
+    width: auto;
 }
-.projetos {
-    height: 80px;
-}
-.habilidades {
-    height: 80px;
-}
-.contato {
-    height: 80px;
+nav a img:hover {
+    transform: scale(1.1);
 }
