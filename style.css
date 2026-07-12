@@ -20,19 +20,18 @@ nav{
     justify-content: flex-end;
     align-items: center;
     gap:80px;
-    padding-right: 130px;
+    padding-right: 30px;
 }
 .logo {
-    height: 80px;
+    height: 70px;
     width: auto;
     display: block;
     position: relative;
     z-index: 10;
-    top: 35px;
-    left: 70px;
+    top: 0px;
 }
 nav a img {
-    height: 150px;
+    height: 140px;
     width: auto;
 }
 nav a img:hover {
