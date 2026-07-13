@@ -125,11 +125,25 @@ nav a img:hover {
     margin-left: 1003px;
     margin-top: 230px;
 }
-.fundo-home {
+.fundo-1-home{
     position: absolute;
     pointer-events: none;
     width: 1351px;
     margin-top: 571px;
+    margin-left:-8px;
+}
+.fita-cetim-home {
+    position: absolute;
+    pointer-events: none;
+    width: 1351px;
+    margin-top: -80px;
+    margin-left:-8px;
+}
+.fundo-home {
+    position: absolute;
+    pointer-events: none;
+    width: 1351px;
+    margin-top: 1292px;
     margin-left:-8px;
 }
 .separador-home {
@@ -137,14 +151,14 @@ nav a img:hover {
     pointer-events: none;
     width: 1351px;
     transform: rotate(90deg);
-    margin-top: -48px;
+    margin-top: 600px;
     margin-left:-8px;
 }
 .caderno-2-home {
     position: absolute;
     pointer-events: none;
     width: 1300px;
-    margin-top: 670px;
+    margin-top: 1330px;
     margin-left:18px;
     filter: drop-shadow(6px 6px 8px rgba(0, 0, 0, 0.25));
 }
@@ -152,21 +166,80 @@ nav a img:hover {
     position: absolute;
     pointer-events: none;
     width: 380px;
-    margin-top: 820px;
+    margin-top: 2000px;
     margin-left: 100px;
 }
 .card-2-projeto-home {
     position: absolute;
     pointer-events: none;
     width: 380px;
-    margin-top: 820px;
+    margin-top: 2000px;
     margin-left: 475px;
 }
 .card-3-projeto-home {
     position: absolute;
     pointer-events: none;
     width: 380px;
-    margin-top: 820px;
+    margin-top: 2000px;
     margin-left: 850px;
+}
+.postit-2-home {
+    position: absolute;
+    pointer-events: none;
+    width: 400px;
+    margin-left: 900px;
+    margin-top: 780px;
+}
+.foto-2-home {
+    position: absolute;
+    pointer-events: none;
+    width: 500px;
+    margin-left: -20px;
+    margin-top: 690px;
+}
+.container-carta {
+    position: relative;
+    width: 600px;
+    height: 200px;
+    cursor: pointer;
+}
+.carta {
+    position: absolute;
+    width: 600px;
+    top: 600px;
+    left:360px;
+    transition: opacity 0.4s ease-in-out;
+    z-index: 9998;
+    transform: rotate(-10deg);
+}
+.carta-aberta {
+    opacity: 0;
+}
+.carta-fechada {
+    opacity: 1;
+}
+.container-carta:hover .carta-fechada {
+    opacity: 0; 
+}
+.container-carta:hover .carta-aberta {
+    opacity: 1; 
+}
+.link-ticket {
+    position: absolute; 
+    z-index: 999;
+    width: 300px;
+    margin-left: 310px;
+    margin-top: 790px;
+    display: inline-block;
+}
+
+.ticket-home {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.link-ticket:hover .ticket-home {
+    transform: scale(1.08);
 }
 
