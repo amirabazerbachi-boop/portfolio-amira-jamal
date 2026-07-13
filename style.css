@@ -371,15 +371,15 @@ nav a img:hover {
     z-index: 999;
 }
 .card-1-home {
-    width: 250px; /* Tamanho do Card 1 */
+    width: 300px; /* Tamanho do Card 1 */
     height: auto;
 }
 .card-2-home {
-    width: 250px; /* Tamanho do Card 1 */
+    width: 300px; /* Tamanho do Card 1 */
     height: auto;
 }
 .card-3-home {
-    width: 250px; /* Tamanho do Card 1 */
+    width: 300px; /* Tamanho do Card 1 */
     height: auto;
 }
 .card-4-home {
@@ -424,4 +424,25 @@ nav a img:hover {
 }.card-16-home {
     width: 250px; /* Tamanho do Card 1 */
     height: auto;
+}
+.botao-1-home {
+    position: absolute;
+    pointer-events: none;
+    width: 100px;
+    margin-left: 310px;
+    margin-top: 1600px;
+}
+.botao-2-home {
+    position: absolute;
+    pointer-events: none;
+    width: 100px;
+    margin-left: 625px;
+    margin-top: 1600px;
+}
+.botao-3-home {
+    position: absolute;
+    pointer-events: none;
+    width: 100px;
+    margin-left: 950px;
+    margin-top: 1600px;
 }
