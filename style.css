@@ -55,7 +55,7 @@ nav a img:hover {
 .contato:hover {
     transform: scale(1.1);
     filter: drop-shadow(4px 4px 0px rgba(148, 18, 199, 0.849));
-}
+}  
 .link-home:hover {
     transform: scale(1.1);
     filter: drop-shadow(4px 4px 0px rgba(148, 18, 199, 0.849));
@@ -195,7 +195,7 @@ nav a img:hover {
     pointer-events: none;
     width: 500px;
     margin-left: -20px;
-    margin-top: 690px;
+    margin-top: 710px;
 }
 .container-carta {
     position: relative;
@@ -234,7 +234,7 @@ nav a img:hover {
 }
 
 .ticket-home {
-    width: 100%;
+    width: 300px;
     height: auto;
     transition: transform 0.3s ease;
 }
@@ -242,4 +242,10 @@ nav a img:hover {
 .link-ticket:hover .ticket-home {
     transform: scale(1.08);
 }
-
+.sobre-mim-2-home {
+    position: absolute;
+    pointer-events: none;
+    width: 300px;
+    margin-left: -15px;
+    margin-top: 340px;
+}
