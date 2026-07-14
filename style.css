@@ -63,7 +63,7 @@ nav a img:hover {
 .caderno-home {
     position: absolute;
     pointer-events: none;
-    width: 580px;
+    width: 645px;
     height: auto;
     margin-left: -15px;
     
@@ -72,22 +72,22 @@ nav a img:hover {
     position: absolute;
     pointer-events: none;
     width: 590px;
-    margin-top: -70px;
-    margin-left: 230px; 
+    margin-top: -30px;
+    margin-left: 280px; 
     transform: rotate(6deg);
 }
 .saudação-home {
     position: absolute;
     pointer-events: none;
     width: 520px;
-    margin-top: 155px;
-    margin-left: 160px; 
+    margin-top: 180px;
+    margin-left: 190px; 
     z-index: -1;
 }
 .perfil-home {
     position: absolute;
-    width: 360px;
-    margin-top: 90px;
+    width: 390px;
+    margin-top: 120px;
     margin-left: 830px;
 }
 .perfil-home:hover {
@@ -97,60 +97,60 @@ nav a img:hover {
 .seta-home {
     position: absolute;
     pointer-events: none;
-    width: 300px;
-    margin-left: 600px;
+    width: 340px;
+    margin-left: 570px;
     margin-top: -60px;
     transform: rotate(-10deg);
 }
 .traços-home {
     position: absolute;
     pointer-events: none;
-    width: 140px;
-    margin-left: 1070px;
-    margin-top: -2px;
+    width: 160px;
+    margin-left: 1075px;
+    margin-top: 15px;
     transform: rotate(-18deg);
 }
 .postit-1-home {
     position: absolute;
     pointer-events: none;
     width: 180px;
-    margin-left: 1190px;
+    margin-left: 1315px;
     margin-top: 8px;
 }
 .deco-direita-home {
     position: absolute;
     pointer-events: none;
-    width: 340px;
-    margin-left: 1003px;
-    margin-top: 230px;
+    width: 400px;
+    margin-left: 1093px;
+    margin-top: 241px;
 }
 .fundo-1-home{
     position: absolute;
     pointer-events: none;
-    width: 1351px;
-    margin-top: 571px;
+    width: 1501px;
+    margin-top: 700px;
     margin-left:-8px;
 }
 .fita-cetim-home {
     position: absolute;
     pointer-events: none;
-    width: 1351px;
-    margin-top: -80px;
+    width: 1501px;
+    margin-top: -60px;
     margin-left:-8px;
 }
 .fundo-home {
     position: absolute;
     pointer-events: none;
-    width: 1351px;
-    margin-top: 1292px;
+    width: 1502px;
+    margin-top: 1501px;
     margin-left:-8px;
 }
 .separador-home {
     position: absolute;
     pointer-events: none;
-    width: 1351px;
+    width: 1502px;
     transform: rotate(90deg);
-    margin-top: 600px;
+    margin-top: 810px;
     margin-left:-8px;
 }
 .caderno-2-home {
@@ -160,27 +160,6 @@ nav a img:hover {
     margin-top: 1330px;
     margin-left:18px;
     filter: drop-shadow(6px 6px 8px rgba(0, 0, 0, 0.25));
-}
-.card-1-projeto-home {
-    position: absolute;
-    pointer-events: none;
-    width: 330px;
-    margin-top: 1500px;
-    margin-left: 140px;
-}
-.card-2-projeto-home {
-    position: absolute;
-    pointer-events: none;
-    width: 330px;
-    margin-top: 1500px;
-    margin-left: 490px;
-}
-.card-3-projeto-home {
-    position: absolute;
-    pointer-events: none;
-    width: 330px;
-    margin-top: 1500px;
-    margin-left: 850px;
 }
 .postit-2-home {
     position: absolute;
@@ -275,14 +254,12 @@ nav a img:hover {
 .timeline-container::-webkit-scrollbar {
     display: none;
 }
-
-/* 3. Cada página que agrupa as setas e os 3 cards */
 .timeline-page {
     flex: 0 0 100%;
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Mantém setas nas pontas e cards no meio */
+    justify-content: space-between; 
     scroll-snap-align: start;
     box-sizing: border-box;
     padding: 0 200px;
@@ -297,133 +274,206 @@ nav a img:hover {
     height: 100%;
 }
 .timeline-page img {
-    position: static; /* Mantém os itens lado a lado no carrossel */
+    position: static; 
     margin: 0;        
 }
 .seta-1 {
-    width: 38px;  
+    width: 110px;  
     height: auto;
     cursor: pointer;
     position: relative;
     z-index: 999;
 }
 .seta-2 {
-    width: 38px;  
+    width: 110px;  
     height: auto;
     cursor: pointer;
     position: relative;
     z-index: 999;
 }
 .seta-3 {
-    width: 38px;  
+    width: 110px;  
     height: auto;
     cursor: pointer;
     position: relative;
     z-index: 999;
 }
 .seta-4 {
-    width: 38px;  
+    width: 110px;  
     height: auto;
     cursor: pointer;
     position: relative;
     z-index: 999;
 }
 .seta-5 {
-    width: 38px;  
+    width: 110px;  
     height: auto;
     cursor: pointer;
     position: relative;
     z-index: 999;
 }
 .seta-6 {
-    width: 38px;  
+    width: 110px;  
     height: auto;
     cursor: pointer;
     position: relative;
     z-index: 999;
 }
 .seta-7 {
-    width: 38px;  
+    width: 110px;  
     height: auto;
     cursor: pointer;
     position: relative;
     z-index: 999;
 }
 .seta-8 {
-    width: 38px;  
+    width: 110px;  
     height: auto;
     cursor: pointer;
     position: relative;
     z-index: 999;
 }
 .seta-9 {
-    width: 38px;  
+    width: 110px;  
     height: auto;
     cursor: pointer;
     position: relative;
     z-index: 999;
 }
 .seta-10 {
-    width: 38px;  
+    width: 110px;  
     height: auto;
     cursor: pointer;
     position: relative;
     z-index: 999;
 }
 .card-1-home {
-    width: 300px; /* Tamanho do Card 1 */
+    width: 300px;
     height: auto;
+}
+.card-1-home:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(186, 235, 147, 0.986)); 
 }
 .card-2-home {
     width: 300px; /* Tamanho do Card 1 */
     height: auto;
 }
+.card-2-home:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(146, 237, 243, 0.986)); 
+}
 .card-3-home {
     width: 300px; /* Tamanho do Card 1 */
     height: auto;
 }
+.card-3-home:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(221, 60, 127, 0.986)); 
+}
 .card-4-home {
-    width: 250px; /* Tamanho do Card 1 */
+    width: 300px; /* Tamanho do Card 1 */
     height: auto;
+}
+.card-4-home:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(255, 222, 112, 0.986)); 
 }
 .card-5-home {
-    width: 250px; /* Tamanho do Card 1 */
+    width: 300px; /* Tamanho do Card 1 */
     height: auto;
+}
+.card-5-home:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(145, 39, 194, 0.986)); 
 }
 .card-6-home {
-    width: 250px; /* Tamanho do Card 1 */
-    height: auto;
-}.card-7-home {
-    width: 250px; /* Tamanho do Card 1 */
-    height: auto;
-}.card-8-home {
-    width: 250px; /* Tamanho do Card 1 */
-    height: auto;
-}.card-9-home {
-    width: 250px; /* Tamanho do Card 1 */
-    height: auto;
-}.card-10-home {
-    width: 250px; /* Tamanho do Card 1 */
-    height: auto;
-}.card-11-home {
-    width: 250px; /* Tamanho do Card 1 */
-    height: auto;
-}.card-12-home {
-    width: 250px; /* Tamanho do Card 1 */
-    height: auto;
-}.card-13-home {
-    width: 250px; /* Tamanho do Card 1 */
+    width: 300px; /* Tamanho do Card 1 */
     height: auto;
 }
+.card-6-home:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(243, 139, 70, 0.986)); 
+}
+.card-7-home {
+    width: 300px; /* Tamanho do Card 1 */
+    height: auto;
+}
+.card-7-home:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(221, 60, 127, 0.986)); 
+}
+.card-8-home {
+    width: 300px; /* Tamanho do Card 1 */
+    height: auto;
+}
+.card-8-home:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(39, 219, 84, 0.986)); 
+}
+.card-9-home {
+    width: 300px; /* Tamanho do Card 1 */
+    height: auto;
+}
+.card-9-home:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(50, 14, 151, 0.986)); 
+}
+.card-10-home {
+    width: 300px; /* Tamanho do Card 1 */
+    height: auto;
+}
+.card-10-home:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(207, 39, 67, 0.986)); 
+}
+.card-11-home {
+    width: 300px; /* Tamanho do Card 1 */
+    height: auto;
+}
+.card-11-home:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(222, 103, 238, 0.986)); 
+}
+.card-12-home {
+    width: 300px; /* Tamanho do Card 1 */
+    height: auto;
+}
+.card-12-home:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(104, 202, 181, 0.986)); 
+}
+.card-13-home {
+    width: 300px; /* Tamanho do Card 1 */
+    height: auto;
+}
+.card-13-home:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(141, 156, 52, 0.986)); 
+}
 .card-14-home {
-    width: 250px; /* Tamanho do Card 1 */
+    width: 300px; 
     height: auto;
-}.card-15-home {
-    width: 250px; /* Tamanho do Card 1 */
+}
+.card-14-home:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(248, 106, 213, 0.986)); 
+}
+.card-15-home {
+    width: 300px;
     height: auto;
-}.card-16-home {
-    width: 250px; /* Tamanho do Card 1 */
+}
+.card-15-home:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(190, 156, 44, 0.986)); 
+}
+.card-16-home {
+    width: 300px; /* Tamanho do Card 1 */
     height: auto;
+}
+.card-16-home:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(255, 226, 147, 0.986)); 
 }
 .botao-1-home {
     position: absolute;
@@ -446,3 +496,99 @@ nav a img:hover {
     margin-left: 950px;
     margin-top: 1600px;
 }
+.fundo-3-home {
+    position: absolute;
+    pointer-events: none;
+    width: 1501px;
+    margin-top: 2102px;
+    margin-left:-8px;
+}
+.moldura-1-home {
+    position: absolute;
+    width: 500px;
+    margin-left: -70px;
+    margin-top: 2102px;
+    filter: drop-shadow(10px 10px 1px rgba(0, 0, 0, 0.25));
+    transform-origin: top center; 
+    transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1.2);
+    z-index: 100;
+}
+.moldura-1-home:hover {
+    transform: rotate(3deg) scale(1.02); 
+    filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.3));
+    z-index: 999;
+}
+.moldura-2-home {
+    position: absolute;
+    width: 660px;
+    margin-left: 190px;
+    margin-top: 2102px;
+    filter: drop-shadow(10px 10px 1px rgba(0, 0, 0, 0.25));
+    transform-origin: top center; 
+    transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1.2);
+    z-index: 100;
+}
+.moldura-2-home:hover {
+    transform: rotate(3deg) scale(1.02); 
+    filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.3));
+    z-index: 999;
+}
+.moldura-3-home {
+    position: absolute;
+    width: 550px;
+    margin-left: 640px;
+    margin-top: 2102px;
+    filter: drop-shadow(10px 10px 1px rgba(0, 0, 0, 0.25));
+    transform-origin: top center; 
+    transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1.2);
+    z-index: 100;
+}
+.moldura-3-home:hover {
+    transform: rotate(3deg) scale(1.02); 
+    filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.3));
+    z-index: 999;
+}
+.moldura-4-home {
+    position: absolute;
+    width: 450px;
+    margin-left: 1040px;
+    margin-top: 2102px;
+    filter: drop-shadow(10px 10px 1px rgba(0, 0, 0, 0.25));
+    transform-origin: top center; 
+    transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1.2);
+    z-index: 100;
+}
+.moldura-4-home:hover {
+    transform: rotate(3deg) scale(1.02); 
+    filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.3));
+    z-index: 999;
+}
+.titulo-1-home {
+    position: absolute;
+    pointer-events: none;
+    width: 180px;
+    margin-left: 96px;
+    margin-top: 2550px;
+}
+.titulo-2-home {
+    position: absolute;
+    pointer-events: none;
+    width: 180px;
+    margin-left: 428px;
+    margin-top: 2710px;
+}
+.titulo-3-home {
+    position: absolute;
+    pointer-events: none;
+    width: 180px;
+    margin-left: 825px;
+    margin-top: 2600px;
+}
+.titulo-4-home {
+    position: absolute;
+    pointer-events: none;
+    width: 180px;
+    margin-left: 1180px;
+    margin-top: 2510px;
+}
+
