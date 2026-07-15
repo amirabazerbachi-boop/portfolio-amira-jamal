@@ -605,6 +605,47 @@ nav a img:hover {
   height: 709px;           
   background-color: #ffec98; 
   margin-left: -8px;
-  margin-top: 2962px;
+  margin-top: 3000px;
+}
+.caderno-habilidades-home {
+  width: 1090px;                  
+  margin-left: 190px;
+  margin-top: -900px;
+  transform: rotate(90deg);
+}
+.habilidade-html-home {
+    position: absolute;
+    pointer-events: none;
+    width: 180px;
+    margin-left: -950px;
+    margin-top: -600px;
+}
+.habilidade-css-home {
+    position: absolute;
+    pointer-events: none;
+    width: 180px;
+    margin-left: -770px;
+    margin-top: -600px;
+}
+.titulo-h-home {
+    position: absolute;
+    pointer-events: none;
+    width: 500px;
+    margin-left: -790px;
+    margin-top: -758px;
+}
+.retangulo-2 {
+  width: 1501px;           
+  height: 70px;           
+  background-color: #e798ff; 
+  margin-left: -8px;
+  margin-top: -941px;
+}
+.habilidade-git-home {
+    position: absolute;
+    pointer-events: none;
+    width: 180px;
+    margin-left: 330px;
+    margin-top: 300px;
 }
 
