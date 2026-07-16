@@ -1,3 +1,4 @@
+/*area de ediçao do home*/
 body {
     overflow-x: hidden;
     background-color: #fff8e1;
@@ -124,6 +125,7 @@ nav a img:hover {
     margin-left: 1093px;
     margin-top: 241px;
 }
+/*area de ediçao de sobre-mim*/
 .fundo-1-home{
     position: absolute;
     pointer-events: none;
@@ -138,42 +140,20 @@ nav a img:hover {
     margin-top: -60px;
     margin-left:-8px;
 }
-.fundo-home {
-    position: absolute;
-    pointer-events: none;
-    width: 1502px;
-    margin-top: 1501px;
-    margin-left:-8px;
-}
-.separador-home {
-    position: absolute;
-    pointer-events: none;
-    width: 1502px;
-    transform: rotate(90deg);
-    margin-top: 810px;
-    margin-left:-8px;
-}
-.caderno-2-home {
-    position: absolute;
-    pointer-events: none;
-    width: 1300px;
-    margin-top: 1630px;
-    margin-left:90px;
-    filter: drop-shadow(6px 6px 8px rgba(0, 0, 0, 0.25));
-}
 .postit-2-home {
     position: absolute;
     pointer-events: none;
     width: 400px;
-    margin-left: 900px;
-    margin-top: 780px;
+    margin-left: 940px;
+    margin-top: 900px;
+    z-index: 1;
 }
 .foto-2-home {
     position: absolute;
     pointer-events: none;
     width: 500px;
     margin-left: -20px;
-    margin-top: 710px;
+    margin-top: 870px;
 }
 .container-carta {
     position: relative;
@@ -184,7 +164,7 @@ nav a img:hover {
 .carta {
     position: absolute;
     width: 600px;
-    top: 600px;
+    top: 780px;
     left:360px;
     transition: opacity 0.4s ease-in-out;
     z-index: 9998;
@@ -207,16 +187,14 @@ nav a img:hover {
     z-index: 999;
     width: 300px;
     margin-left: 310px;
-    margin-top: 790px;
+    margin-top: 960px;
     display: inline-block;
 }
-
 .ticket-home {
     width: 300px;
     height: auto;
     transition: transform 0.3s ease;
 }
-
 .link-ticket:hover .ticket-home {
     transform: scale(1.08);
 }
@@ -225,7 +203,31 @@ nav a img:hover {
     pointer-events: none;
     width: 300px;
     margin-left: -15px;
-    margin-top: 340px;
+    margin-top: 480px;
+}
+/*area de ediçao de linha do tempo*/
+.fundo-home {
+    position: absolute;
+    pointer-events: none;
+    width: 1502px;
+    margin-top: 1501px;
+    margin-left:-8px;
+}
+.separador-home {
+    position: absolute;
+    pointer-events: none;
+    width: 1502px;
+    transform: rotate(90deg);
+    margin-top: 810px;
+    margin-left:-8px;
+}
+.caderno-2-home {
+    position: absolute;
+    pointer-events: none;
+    width: 1300px;
+    margin-top: 1630px;
+    margin-left:90px;
+    filter: drop-shadow(6px 6px 8px rgba(0, 0, 0, 0.25));
 }
 .fita-3-home {
     position: absolute;
@@ -497,6 +499,7 @@ nav a img:hover {
     margin-left: 1010px;
     margin-top: 1870px;
 }
+/*area de ediçao de galeria*/
 .fundo-3-home {
     position: absolute;
     pointer-events: none;
@@ -597,55 +600,219 @@ nav a img:hover {
     pointer-events: none;
     width: 1501px;
     margin-left: -8px;
-    margin-top: 1386px;
+    margin-top: 1387px;
     transform: rotate(90deg);
 }
+/*area de ediçao de habilidades*/
 .retangulo {
   width: 1501px;           
-  height: 709px;           
+  height: 900px;           
   background-color: #ffec98; 
   margin-left: -8px;
-  margin-top: 3000px;
+  margin-top: 2964px;
 }
 .caderno-habilidades-home {
-  width: 1090px;                  
+  width: 1090px;  
+  position: absolute;                
   margin-left: 190px;
-  margin-top: -900px;
+  margin-top: -1000px;
   transform: rotate(90deg);
 }
 .habilidade-html-home {
     position: absolute;
     pointer-events: none;
-    width: 180px;
-    margin-left: -950px;
-    margin-top: -600px;
+    width: 170px;
+    margin-left: 340px;
+    margin-top: -700px ;
 }
 .habilidade-css-home {
     position: absolute;
     pointer-events: none;
-    width: 180px;
-    margin-left: -770px;
-    margin-top: -600px;
+    width: 170px;
+    margin-left: 520px;
+    margin-top: -700px;
 }
 .titulo-h-home {
     position: absolute;
     pointer-events: none;
     width: 500px;
-    margin-left: -790px;
-    margin-top: -758px;
+    margin-left: 500px;
+    margin-top: -910px ;
+    z-index: 90;
 }
 .retangulo-2 {
-  width: 1501px;           
-  height: 70px;           
-  background-color: #e798ff; 
-  margin-left: -8px;
-  margin-top: -941px;
+    position: absolute;
+    width: 1501px;           
+    height: 70px;           
+    background-color: #e798ff; 
+    margin-left: -8px;
+    margin-top: -903px;
 }
 .habilidade-git-home {
     position: absolute;
     pointer-events: none;
-    width: 180px;
-    margin-left: 330px;
-    margin-top: 300px;
+    width: 170px;
+    margin-left: 340px;
+    margin-top: -530px;
 }
-
+.habilidade-ux-home {
+    position: absolute;
+    pointer-events: none;
+    width: 170px;
+    margin-left: 520px;
+    margin-top: -530px;
+}
+.habilidade-equipe-home {
+    position: absolute;
+    pointer-events: none;
+    width: 170px;
+    margin-left: 340px;
+    margin-top: -360px;
+}
+.habilidade-comunicaçao-home {
+    position: absolute;
+    pointer-events: none;
+    width: 170px;
+    margin-left: 520px;
+    margin-top: -360px;
+}
+/*area de ediçao de footer*/
+.rodape {
+    width: 1502px;
+    position: absolute;
+    margin-top: -1180px;
+    margin-left: -9px;
+}
+.logo-rodape {
+    position: absolute;
+    pointer-events: none;
+    width: 170px;
+    margin-left: -20px;
+    margin-top: -30px;
+    filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
+}
+.titulo-redes {
+    position: absolute;
+    pointer-events: none;
+    width: 240px;
+    margin-left: 200px;
+    margin-top: -80px;
+    filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
+}
+.titulo-contato-rodape {
+    position: absolute;
+    pointer-events: none;
+    width: 240px;
+    margin-left: 630px;
+    margin-top: -80px;
+    filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
+}
+.titulo-creditos {
+    position: absolute;
+    pointer-events: none;
+    width: 240px;
+    margin-left: 1090px;
+    margin-top: -80px;
+    filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
+}
+.insta-icone {
+    position: absolute;
+    pointer-events: none;
+    width: 40px;
+    margin-left: 205px;
+    margin-top: 120px;
+}
+.linkedin-icone {
+    position: absolute;
+    pointer-events: none;
+    width: 40px;
+    margin-left: 205px;
+    margin-top: 180px;
+}
+.git-icone {
+    position: absolute;
+    pointer-events: none;
+    width: 40px;
+    margin-left: 205px;
+    margin-top: 238px;
+}
+.mail-icone {
+    position: absolute;
+    pointer-events: none;
+    width: 40px;
+    margin-left: 620px;
+    margin-top: 120px;
+}
+.creditos {
+    position: absolute;
+    pointer-events: none;
+    width: 570px;
+    margin-left: 990px;
+    margin-top: -260px;
+}
+.instagram-1 {
+    position: absolute;
+    pointer-events: none;
+    width: 190px;
+    margin-left: 245px;
+    margin-top: 45px;
+}
+.git-1 {
+    position: absolute;
+    pointer-events: none;
+    width: 230px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.linkedin-1 {
+    position: absolute;
+    pointer-events: none;
+    width: 230px;
+    margin-left: 252px;
+    margin-top: -11px;
+}
+.email-1 {
+    position: absolute;
+    pointer-events: none;
+    width: 280px;
+    margin-left: 660px;
+    margin-top: -120px;
+}
+.ano-rodape {
+    position: absolute;
+    pointer-events: none;
+    width: 280px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.foto-4 {
+    position: absolute;
+    pointer-events: none;
+    width: 470px;
+    margin-left: 1030px;
+    margin-top: -3000px;
+}
+.fundo-sobre-mim {
+    position: absolute;
+    pointer-events: none;
+    width: 1503px;
+    margin-top: 8px;
+    margin-left: -8px;
+    z-index: -999;
+}
+.fundo-sobre-mim-2 {
+    position: absolute;
+    pointer-events: none;
+    width: 1503px;
+    margin-top: 50px;
+    margin-left: -8px;
+    z-index: -999;
+}
+.retangulo-3 {
+  width: 1000px;           
+  height: 700px;           
+  background-color: #fffcf0; 
+  margin-left: 240px ;
+  margin-top: 100px;
+  position: absolute;
+}
