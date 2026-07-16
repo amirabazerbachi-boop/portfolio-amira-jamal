@@ -809,10 +809,63 @@ nav a img:hover {
     z-index: -999;
 }
 .retangulo-3 {
-  width: 1000px;           
-  height: 700px;           
-  background-color: #fffcf0; 
-  margin-left: 240px ;
-  margin-top: 100px;
-  position: absolute;
+    width: 1000px;           
+    height: 1015px;           
+    background-color: #fffcf0; 
+    margin-left: 240px ;
+    margin-top: 100px;
+    position: absolute;
+    background-image: linear-gradient(#ebe4ce 1px, transparent 1px);
+    background-size: 100% 35px;
+    background-repeat: repeat;
+
 }
+.texto-sobre-mim {    
+    padding-top: 460px;       
+    padding-bottom: 30px;
+    padding-left: 270px;      
+    padding-right: 268px; 
+    position: absolute;
+    box-sizing: border-box;   
+}   
+.texto-sobre-mim p {
+    font-family: 'Gaegu', cursive; 
+    font-size: 16px;  
+    font-weight: 550;        
+    color: #333333; 
+    position: relative;       
+    line-height: 35px;       
+    margin: 0 0 30px 0;
+}
+.moldura-sobre-mim {
+    position: absolute;
+    pointer-events: none;
+    width: 470px;
+    margin-left: 150px;
+    margin-top: 67px;
+}
+.argolas {
+    position: absolute;
+    pointer-events: none;
+    width: 1110px;
+    margin-left: 185px;
+    margin-top: -487px;
+}
+.ficha {    
+    padding-top: 193px;       
+    padding-bottom: 36px;
+    padding-left: 510px;      
+    padding-right: 268px; 
+    position: absolute;
+    box-sizing: border-box;   
+}   
+.ficha p {
+    font-family: 'Gaegu', cursive; 
+    font-size: 16px;  
+    font-weight: 550;        
+    color: #333333; 
+    position: relative;       
+    line-height: 6px;       
+    margin: 0 0 30px 0;
+}
+
