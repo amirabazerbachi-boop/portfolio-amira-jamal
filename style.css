@@ -980,113 +980,178 @@ nav a img:hover {
 }
 .gem-1 {
     position: absolute;
-    pointer-events: none;
+    transition: all 0.4s ease-out; 
+    cursor: pointer;
     width: 200px;
     margin-top: 100px;
     margin-left: 20px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
 }
+.gem-1:hover {
+    transform: scale(1.1) rotate(5deg); 
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)) brightness(1.2) saturate(1.1);
+}
 .gem-2 {
     position: absolute;
-    pointer-events: none;
     width: 160px;
     margin-top: 300px;
     margin-left: -10px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
     transform: rotate(-5deg);
+    transition: all 0.4s ease-out;
+    cursor: pointer;
+}
+.gem-2:hover {
+    transform: scale(1.1) rotate(5deg); 
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)) brightness(1.2) saturate(1.1);
 }
 .gem-3 {
     position: absolute;
-    pointer-events: none;
     width: 160px;
     margin-top: 450px;
     margin-left: 130px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
     z-index: -9;
+    transition: all 0.4s ease-out;
+    cursor: pointer;
+}
+.gem-3:hover {
+    transform: scale(1.1) rotate(5deg); 
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)) brightness(1.2) saturate(1.1);
 }
 .gem-4 {
     position: absolute;
-    pointer-events: none;
     width: 160px;
     margin-top: 600px;
     margin-left: 10px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
+    transition: all 0.4s ease-out; 
+    cursor: pointer;
+}
+.gem-4:hover {
+    transform: scale(1.1) rotate(5deg); 
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)) brightness(1.2) saturate(1.1);
 }
 .gem-5 {
     position: absolute;
-    pointer-events: none;
     width: 130px;
     margin-top: 140px;
     margin-left: 900px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
     transform: rotate(-10deg);
+    transition: all 0.4s ease-out; 
+    cursor: pointer;
+}
+.gem-5:hover {
+    transform: scale(1.1) rotate(5deg); 
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)) brightness(1.2) saturate(1.1);
 }
 .gem-6 {
     position: absolute;
-    pointer-events: none;
     width: 160px;
     margin-top: 170px;
     margin-left: 1145px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
     transform: rotate(10deg);
+    transition: all 0.4s ease-out; 
+    cursor: pointer;
+}
+.gem-6:hover {
+    transform: scale(1.1) rotate(5deg); 
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)) brightness(1.2) saturate(1.1);
 }
 .gem-7 {
     position: absolute;
-    pointer-events: none;
     width: 190px;
     margin-top: 50px;
     margin-left: 1275px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
+    transition: all 0.4s ease-out; 
+    cursor: pointer;
+}
+.gem-7:hover {
+    transform: scale(1.1) rotate(5deg); 
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)) brightness(1.2) saturate(1.1);
 }
 .gem-8 {
     position: absolute;
-    pointer-events: none;
     width: 140px;
     margin-top: 260px;
     margin-left: 1380px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
+    transition: all 0.4s ease-out; 
+    cursor: pointer;
+}
+.gem-8:hover {
+    transform: scale(1.1) rotate(5deg); 
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)) brightness(1.2) saturate(1.1);
 }
 .gem-9 {
     position: absolute;
-    pointer-events: none;
     width: 240px;
     margin-top: 420px;
     margin-left: 1275px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
+    transition: all 0.4s ease-out; 
+    cursor: pointer;
+}
+.gem-9:hover {
+    transform: scale(1.1) rotate(5deg); 
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)) brightness(1.2) saturate(1.1);
 }
 .gem-10 {
     position: absolute;
-    pointer-events: none;
     width: 240px;
     margin-top: 1000px;
     margin-left: 120px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
     transform: rotate(30deg);
+    transition: all 0.4s ease-out; 
+    cursor: pointer;
+}
+.gem-10:hover {
+    transform: scale(1.1) rotate(5deg); 
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)) brightness(1.2) saturate(1.1);
 }
 .gem-11 {
     position: absolute;
-    pointer-events: none;
     width: 240px;
     margin-top: 800px;
     margin-left: -100px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
+    transition: all 0.4s ease-out; 
+    cursor: pointer;
+}
+.gem-11:hover {
+    transform: scale(1.1) rotate(5deg); 
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)) brightness(1.2) saturate(1.1);
 }
 .gem-12 {
     position: absolute;
-    pointer-events: none;
     width: 160px;
     margin-top: 720px;
     margin-left: 1170px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
+    transition: all 0.4s ease-out;
+    cursor: pointer;
+}
+.gem-12:hover {
+    transform: scale(1.1) rotate(5deg); 
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)) brightness(1.2) saturate(1.1);
 }
 .gem-13 {
     position: absolute;
-    pointer-events: none;
     width: 240px;
     margin-top: 900px;
     margin-left: 1265px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
     transform: rotate(-30deg);
+    transition: all 0.4s ease-out; 
+    cursor: pointer;
+}
+.gem-13:hover {
+    transform: scale(1.1) rotate(5deg); 
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)) brightness(1.2) saturate(1.1);
 }
 
 
