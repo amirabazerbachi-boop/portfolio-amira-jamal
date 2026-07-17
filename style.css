@@ -15,9 +15,11 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px; 
+    height: 70px;
+    width: 1501px; 
     overflow: visible;
-    
+    position: fixed;
+    z-index: 9999;
 }
 nav{
     display: flex;
@@ -1166,11 +1168,10 @@ main.secao-projetos {
     width: 1900px;       
     height: 500px;      
     margin-left: 20px; 
-    margin-top: 70px;     
+    margin-top: 160px;     
     z-index: 100;
     overflow: hidden;
 }
-
 .galeria-container {
     width: 100%;
     height: 100%;
@@ -1180,11 +1181,9 @@ main.secao-projetos {
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
 }
-
 .galeria-container::-webkit-scrollbar {
     display: none;
 }
-
 .galeria-page {
     flex: 0 0 100%;
     height: 100%;
@@ -1195,7 +1194,6 @@ main.secao-projetos {
     box-sizing: border-box;
     padding: 0 200px;
 }
-
 .page-content-galeria {
     display: flex;
     justify-content: center;
@@ -1204,7 +1202,6 @@ main.secao-projetos {
     flex-grow: 1;
     height: 100%;
 }
-
 .galeria-page img {
     position: static; 
     margin: 0;        
@@ -1409,5 +1406,126 @@ main.secao-projetos {
     transform: scale(1.1);
     filter: drop-shadow(15px 4px 0px rgba(114, 12, 80, 0.986));
 }
-
-
+/*area de ediçao de decoraçao dos projetos*/
+.caderninho-projetos {
+    width: 450px;
+    margin-top: -2540px;
+    margin-left: -1050px;
+}
+.estrela-projetos {
+    width: 400px;
+    margin-top: -190px;
+    margin-left: -600px;
+    z-index: -9;
+}
+.deco-projetos {
+    width: 400px;
+    margin-top: -510px;
+    margin-left: 800px;
+    z-index: -9;
+}
+.estrela-projetos2 {
+    width: 250px;
+    margin-top: -460px;
+    margin-left: 1070px;
+}
+.botao-projetos-deco {
+    width: 160px;
+    margin-top: 80px;
+    margin-left: -590px;
+    z-index: -100;
+    position: absolute;
+}
+.deco-projetos2 {
+    width: 300px;
+    margin-top: 370px;
+    margin-left: 980px;
+    position: absolute;
+}
+.titulo-projetos1 {
+    width: 200px;
+    margin-top: -400px;
+    margin-left: -1050px;
+}
+.texto-sobre-projetos {    
+    padding-top: 240px;       
+    padding-bottom: 30px;
+    padding-left: 98px;      
+    padding-right: 1140px; 
+    position: absolute;
+    box-sizing: border-box;   
+}   
+.texto-sobre-projetos p {
+    font-family: 'Gaegu', cursive; 
+    font-size: 16px;  
+    font-weight: 550;        
+    color: #333333; 
+    position: relative;       
+    line-height: 35px;       
+    margin: 0 0 30px 0;
+}
+.estrela3 {
+    width: 300px;
+    margin-top: 760px;
+    margin-left: -1170px;
+    position: absolute;
+}
+.postit-projetos {
+    width: 400px;
+    margin-top: 870px;
+    margin-left: -500px;
+    position: absolute;
+}
+.estrela4 {
+    width: 380px;
+    margin-top: 890px;
+    margin-left: 290px;
+    position: absolute;
+}
+.seta-projetos {
+    width: 360px;
+    margin-top: 1140px;
+    margin-left: -500px;
+    position: absolute;
+}
+.texto-sobre-projetos2 {    
+    padding-top: 1030px;       
+    padding-bottom: 30px;
+    padding-left: 10px;      
+    padding-right: 500px; 
+    position: absolute;
+    box-sizing: border-box;   
+}   
+.texto-sobre-projetos2 p {
+    font-family: 'Gaegu', cursive; 
+    font-size: 16px;  
+    font-weight: 550;        
+    color: #333333; 
+    position: relative;       
+    line-height: 1px;       
+    margin: 0 0 30px 0;
+}
+.estrela5 {
+    width: 380px;
+    margin-top: 1370px;
+    margin-left: 890px;
+    position: absolute;
+}
+.estrela6 {
+    width: 350px;
+    margin-top: 1700px;
+    margin-left: -800px;
+    position: absolute;
+}
+.postit-projetos2 {
+    width: 390px;
+    margin-top: 1530px;
+    margin-left: -520px;
+    position: absolute; 
+}
+.deco2 {
+    width: 380px;
+    margin-top: 1560px;
+    margin-left: 290px;
+    position: absolute;
+}
