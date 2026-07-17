@@ -1153,15 +1153,24 @@ nav a img:hover {
     transform: scale(1.1) rotate(5deg); 
     filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)) brightness(1.2) saturate(1.1);
 }
+/*area de ediçao da galeria*/
+main.secao-projetos {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;      
+    gap: 10px;               
+    width: 100%;
+}
 .galeria-wrapper {
-    position: absolute;
+    position: relative;     
     width: 1900px;       
     height: 500px;      
-    margin-top: 10px; /*onde os cards ficam na vertical*/
-    margin-left: -200px; /*mesmo ajuste mas na horizontal*/
+    margin-left: 20px; 
+    margin-top: 70px;     
     z-index: 100;
     overflow: hidden;
 }
+
 .galeria-container {
     width: 100%;
     height: 100%;
@@ -1171,9 +1180,11 @@ nav a img:hover {
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
 }
+
 .galeria-container::-webkit-scrollbar {
     display: none;
 }
+
 .galeria-page {
     flex: 0 0 100%;
     height: 100%;
@@ -1183,92 +1194,220 @@ nav a img:hover {
     scroll-snap-align: start;
     box-sizing: border-box;
     padding: 0 200px;
-    
 }
+
 .page-content-galeria {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 80px;
     flex-grow: 1;
     height: 100%;
 }
+
 .galeria-page img {
     position: static; 
     margin: 0;        
 }
 .projeto-1-projetos {
-    width: 450px;
+    width: 800px;
     height: auto;
-}
-.projeto-1-projetos:hover {
-    transform: scale(1.1);
-    filter: drop-shadow(15px 4px 0px rgba(186, 235, 147, 0.986)); 
 }
 .projeto-1-2-projetos {
+    width: 800px;
+    height: auto;
+}
+.projeto-1-3-projetos {
+    width: 800px;
+    height: auto;
+}
+.projeto-1-4-projetos {
+    width: 800px;
+    height: auto;
+}
+.projeto-1-5-projetos {
+    width: 800px;
+    height: auto;
+}
+.projeto-1-6-projetos {
+    width: 800px;
+    height: auto;
+}
+.projeto-1-7-projetos {
+    width: 800px;
+    height: auto;
+}
+
+
+.projeto-2-1-projetos {
     width: 450px;
     height: auto;
 }
-.projeto-1-2-projetos:hover {
+.projeto-2-1-projetos:hover {
     transform: scale(1.1);
-    filter: drop-shadow(15px 4px 0px rgba(186, 235, 147, 0.986)); 
+    filter: drop-shadow(15px 4px 0px rgba(238, 89, 121, 0.986));
 }
-.projeto-1-3-projetos {
-    width: 450px; 
+.projeto-2-2-projetos {
+    width: 450px;
     height: auto;
 }
-.projeto-1-3-projetos:hover {
+.projeto-2-2-projetos:hover {
     transform: scale(1.1);
-    filter: drop-shadow(15px 4px 0px rgba(146, 237, 243, 0.986)); 
+    filter: drop-shadow(15px 4px 0px rgba(255, 216, 45, 0.986));
 }
-.projeto-1-4-projetos {
-    width: 450px; 
+.projeto-2-3-projetos {
+    width: 450px;
     height: auto;
 }
-.projeto-1-4-projetos:hover {
+.projeto-2-3-projetos:hover {
     transform: scale(1.1);
-    filter: drop-shadow(15px 4px 0px rgba(146, 237, 243, 0.986)); 
+    filter: drop-shadow(15px 4px 0px rgba(129, 255, 90, 0.986));
 }
-.projeto-1-5-projetos {
-    width: 450px; 
+.projeto-2-4-projetos {
+    width: 450px;
     height: auto;
 }
-.projeto-1-5-projetos:hover {
+.projeto-2-4-projetos:hover {
     transform: scale(1.1);
-    filter: drop-shadow(15px 4px 0px rgba(146, 237, 243, 0.986)); 
+    filter: drop-shadow(15px 4px 0px rgba(16, 206, 219, 0.986));
 }
-.projeto-1-6-projetos {
-    width: 450px; 
+.projeto-2-5-projetos {
+    width: 450px;
     height: auto;
 }
-.projeto-1-6-projetos:hover {
+.projeto-2-5-projetos:hover {
     transform: scale(1.1);
-    filter: drop-shadow(15px 4px 0px rgba(146, 237, 243, 0.986)); 
+    filter: drop-shadow(15px 4px 0px rgba(225, 134, 253, 0.986));
 }
-.projeto-1-7-projetos {
-    width: 450px; 
+.projeto-2-6-projetos {
+    width: 450px;
     height: auto;
 }
-.projeto-1-7-projetos:hover {
+.projeto-2-6-projetos:hover {
     transform: scale(1.1);
-    filter: drop-shadow(15px 4px 0px rgba(146, 237, 243, 0.986)); 
-}
-.projeto-1-8-projetos {
-    width: 450px; 
-    height: auto;
-}
-.projeto-1-8-projetos:hover {
-    transform: scale(1.1);
-    filter: drop-shadow(15px 4px 0px rgba(146, 237, 243, 0.986)); 
-}
-.projeto-1-9-projetos {
-    width: 450px; 
-    height: auto;
-}
-.projeto-1-9-projetos:hover {
-    transform: scale(1.1);
-    filter: drop-shadow(15px 4px 0px rgba(146, 237, 243, 0.986)); 
+    filter: drop-shadow(15px 4px 0px rgba(90, 255, 192, 0.986));
 }
 
+.projeto-3-1-projetos {
+    width: 450px;
+    height: auto;
+}
+.projeto-3-1-projetos:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(38, 52, 97, 0.986));
+}
+.projeto-3-2-projetos {
+    width: 450px;
+    height: auto;
+}
+.projeto-3-2-projetos:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(56, 92, 26, 0.986));
+}
+.projeto-3-3-projetos {
+    width: 450px;
+    height: auto;
+}
+.projeto-3-3-projetos:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(227, 113, 255, 0.986));
+}
+.projeto-3-4-projetos {
+    width: 450px;
+    height: auto;
+}
+.projeto-3-4-projetos:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(228, 56, 185, 0.986));
+}
+.projeto-3-5-projetos {
+    width: 450px;
+    height: auto;
+}
+.projeto-3-5-projetos:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(231, 157, 45, 0.986));
+}
+.projeto-3-6-projetos {
+    width: 450px;
+    height: auto;
+}
+.projeto-3-6-projetos:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(255, 222, 35, 0.986));
+}
+
+.projeto-4-1-projetos {
+    width: 450px;
+    height: auto;
+}
+.projeto-4-1-projetos:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(22, 241, 88, 0.986));
+}
+.projeto-4-2-projetos {
+    width: 450px;
+    height: auto;
+}
+.projeto-4-2-projetos:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(240, 206, 18, 0.986));
+}
+.projeto-4-3-projetos {
+    width: 450px;
+    height: auto;
+}
+.projeto-4-3-projetos:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(94, 226, 250, 0.986));
+}
+.projeto-4-4-projetos {
+    width: 450px;
+    height: auto;
+}
+.projeto-4-4-projetos:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(106, 23, 173, 0.986));
+}
+.projeto-4-5-projetos {
+    width: 450px;
+    height: auto;
+}
+.projeto-4-5-projetos:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(253, 134, 247, 0.986));
+}
+.projeto-4-6-projetos {
+    width: 450px;
+    height: auto;
+}
+.projeto-4-6-projetos:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(146, 237, 243, 0.986));
+}
+.projeto-4-7-projetos {
+    width: 450px;
+    height: auto;
+}
+.projeto-4-7-projetos:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(223, 55, 50, 0.986));
+}
+.projeto-4-8-projetos {
+    width: 450px;
+    height: auto;
+}
+.projeto-4-8-projetos:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(243, 233, 146, 0.986));
+}
+.projeto-4-9-projetos {
+    width: 450px;
+    height: auto;
+}
+.projeto-4-9-projetos:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(114, 12, 80, 0.986));
+}
 
 
