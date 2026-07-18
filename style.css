@@ -54,10 +54,6 @@ nav a img:hover {
     transform: scale(1.1);
     filter: drop-shadow(4px 4px 0px rgba(255, 223, 81, 0.938));
 }
-.habilidades:hover {
-    transform: scale(1.1);
-    filter: drop-shadow(4px 4px 0px rgba(19, 185, 197, 0.918));
-}
 .contato:hover {
     transform: scale(1.1);
     filter: drop-shadow(4px 4px 0px rgba(148, 18, 199, 0.849));
@@ -72,13 +68,13 @@ nav a img:hover {
     width: 645px;
     height: auto;
     margin-left: -15px;
-    
+    margin-top: 50px;
 }
 .titulo-home {
     position: absolute;
     pointer-events: none;
     width: 590px;
-    margin-top: -30px;
+    margin-top: 30px;
     margin-left: 280px; 
     transform: rotate(6deg);
 }
@@ -86,14 +82,14 @@ nav a img:hover {
     position: absolute;
     pointer-events: none;
     width: 520px;
-    margin-top: 180px;
+    margin-top: 250px;
     margin-left: 190px; 
     z-index: -1;
 }
 .perfil-home {
     position: absolute;
     width: 390px;
-    margin-top: 120px;
+    margin-top: 170px;
     margin-left: 830px;
 }
 .perfil-home:hover {
@@ -105,7 +101,7 @@ nav a img:hover {
     pointer-events: none;
     width: 340px;
     margin-left: 570px;
-    margin-top: -60px;
+    margin-top: -10px;
     transform: rotate(-10deg);
 }
 .traços-home {
@@ -113,7 +109,7 @@ nav a img:hover {
     pointer-events: none;
     width: 160px;
     margin-left: 1075px;
-    margin-top: 15px;
+    margin-top: 55px;
     transform: rotate(-18deg);
 }
 .postit-1-home {
@@ -121,28 +117,28 @@ nav a img:hover {
     pointer-events: none;
     width: 180px;
     margin-left: 1315px;
-    margin-top: 8px;
+    margin-top: 62px;
 }
 .deco-direita-home {
     position: absolute;
     pointer-events: none;
     width: 400px;
     margin-left: 1093px;
-    margin-top: 241px;
+    margin-top: 295px;
 }
 /*area de ediçao de sobre-mim*/
 .fundo-1-home{
     position: absolute;
     pointer-events: none;
     width: 1501px;
-    margin-top: 700px;
+    margin-top: 695px;
     margin-left:-8px;
 }
 .fita-cetim-home {
     position: absolute;
     pointer-events: none;
     width: 1501px;
-    margin-top: -60px;
+    margin-top: -28px;
     margin-left:-8px;
 }
 .postit-2-home {
@@ -480,6 +476,22 @@ nav a img:hover {
     height: auto;
 }
 .card-16-home:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(255, 226, 147, 0.986)); 
+}
+.card-17-home {
+    width: 300px; /* Tamanho do Card 1 */
+    height: auto;
+}
+.card-17-home:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(15px 4px 0px rgba(255, 226, 147, 0.986)); 
+}
+.card-18-home {
+    width: 300px; /* Tamanho do Card 1 */
+    height: auto;
+}
+.card-18-home:hover {
     transform: scale(1.1);
     filter: drop-shadow(15px 4px 0px rgba(255, 226, 147, 0.986)); 
 }
