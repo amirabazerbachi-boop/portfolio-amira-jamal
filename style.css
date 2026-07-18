@@ -6,7 +6,10 @@ body {
     background-size: 100% 30px;
     background-repeat: repeat;
     position: relative;
-    
+    cursor: url('images/cursor1.png') 0 0, auto;
+}
+a, button, [role="button"], .link-ticket {
+    cursor: url('/images/cursor2.png') 0 0, pointer;
 }
 header{
     background-color: #f897c5;
@@ -787,7 +790,6 @@ nav a img:hover {
     margin-left: 20px;
     margin-top: 40px;
 }
-/*pagina sobre mim*/
 .foto-4 {
     position: absolute;
     pointer-events: none;
@@ -795,6 +797,7 @@ nav a img:hover {
     margin-left: 1030px;
     margin-top: -3000px;
 }
+/*pagina sobre mim*/
 .fundo-sobre-mim {
     position: absolute;
     pointer-events: none;
@@ -816,7 +819,7 @@ nav a img:hover {
     height: 1015px;           
     background-color: #fffcf0; 
     margin-left: 240px ;
-    margin-top: 100px;
+    margin-top: 190px;
     position: absolute;
     background-image: linear-gradient(#ebe4ce 1px, transparent 1px);
     background-size: 100% 35px;
@@ -824,7 +827,7 @@ nav a img:hover {
 
 }
 .texto-sobre-mim {    
-    padding-top: 460px;       
+    padding-top: 550px;       
     padding-bottom: 30px;
     padding-left: 270px;      
     padding-right: 268px; 
@@ -845,17 +848,17 @@ nav a img:hover {
     pointer-events: none;
     width: 470px;
     margin-left: 150px;
-    margin-top: 67px;
+    margin-top: 150px;
 }
 .argolas {
     position: absolute;
     pointer-events: none;
     width: 1110px;
     margin-left: 185px;
-    margin-top: -487px;
+    margin-top: -397px;
 }
 .ficha {    
-    padding-top: 193px;       
+    padding-top: 285px;       
     padding-bottom: 36px;
     padding-left: 510px;      
     padding-right: 268px; 
@@ -871,115 +874,6 @@ nav a img:hover {
     line-height: 6px;       
     margin: 0 0 30px 0;
 }
-.rodape-sobre-1 {
-    width: 1505px;
-    position: absolute;
-    margin-top: 80px;
-    margin-left: -10px;
-    
-}
-.logo-sobre {
-    position: absolute;
-    pointer-events: none;
-    width: 170px;
-    margin-left: -20px;
-    margin-top: 1240px;
-    filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
-}
-.titulo-redes-sobre {
-    position: absolute;
-    pointer-events: none;
-    width: 240px;
-    margin-left: 1080px;
-    margin-top: 1169px;
-    filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
-}
-.titulo-contato-sobre {
-    position: absolute;
-    pointer-events: none;
-    width: 240px;
-    margin-left: 630px;
-    margin-top: 1168px;
-    filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
-}
-.titulo-creditos-sobre {
-    position: absolute;
-    pointer-events: none;
-    width: 240px;
-    margin-left: 210px;
-    margin-top: 1170px;
-    filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
-}
-.insta-icone {
-    position: absolute;
-    pointer-events: none;
-    width: 40px;
-    margin-left: 205px;
-    margin-top: 1360px;
-}
-.linkedin-icone {
-    position: absolute;
-    pointer-events: none;
-    width: 40px;
-    margin-left: 205px;
-    margin-top: 1506px;
-}
-.git-icone {
-    position: absolute;
-    pointer-events: none;
-    width: 40px;
-    margin-left: 205px;
-    margin-top: 1430px;
-}
-.mail-icone {
-    position: absolute;
-    pointer-events: none;
-    width: 45px;
-    margin-left: 620px;
-    margin-top: 1360px;
-}
-.creditos-sobre {
-    position: absolute;
-    pointer-events: none;
-    width: 570px;
-    margin-left: 990px;
-    margin-top: 990px;
-}
-.instagram-1-sobre {
-    position: absolute;
-    pointer-events: none;
-    width: 190px;
-    margin-left: 245px;
-    margin-top: 1210px;
-}
-.git-1-sobre {
-    position: absolute;
-    pointer-events: none;
-    width: 230px;
-    margin-left: 250px;
-    margin-top: 1245px;
-}
-.linkedin-1-sobre {
-    position: absolute;
-    pointer-events: none;
-    width: 230px;
-    margin-left: 252px;
-    margin-top: 1316px;
-}
-.email-1-sobre {
-    position: absolute;
-    pointer-events: none;
-    width: 280px;
-    margin-left: 670px;
-    margin-top: 1125px;
-}
-.ano-rodape-sobre {
-    position: absolute;
-    pointer-events: none;
-    width: 280px;
-    margin-left: 20px;
-    margin-top: 1300px;
-}
 .gem-1 {
     position: absolute;
     transition: all 0.4s ease-out; 
@@ -988,6 +882,7 @@ nav a img:hover {
     margin-top: 100px;
     margin-left: 20px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
+    z-index: 999;
 }
 .gem-1:hover {
     transform: scale(1.1) rotate(5deg); 
@@ -1002,6 +897,7 @@ nav a img:hover {
     transform: rotate(-5deg);
     transition: all 0.4s ease-out;
     cursor: pointer;
+    z-index: 999;
 }
 .gem-2:hover {
     transform: scale(1.1) rotate(5deg); 
@@ -1016,6 +912,7 @@ nav a img:hover {
     z-index: -9;
     transition: all 0.4s ease-out;
     cursor: pointer;
+    z-index: 999;
 }
 .gem-3:hover {
     transform: scale(1.1) rotate(5deg); 
@@ -1029,6 +926,7 @@ nav a img:hover {
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
     transition: all 0.4s ease-out; 
     cursor: pointer;
+    z-index: 999;
 }
 .gem-4:hover {
     transform: scale(1.1) rotate(5deg); 
@@ -1037,12 +935,13 @@ nav a img:hover {
 .gem-5 {
     position: absolute;
     width: 130px;
-    margin-top: 140px;
+    margin-top: 240px;
     margin-left: 900px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
     transform: rotate(-10deg);
     transition: all 0.4s ease-out; 
     cursor: pointer;
+    z-index: 999;
 }
 .gem-5:hover {
     transform: scale(1.1) rotate(5deg); 
@@ -1051,12 +950,13 @@ nav a img:hover {
 .gem-6 {
     position: absolute;
     width: 160px;
-    margin-top: 170px;
+    margin-top: 270px;
     margin-left: 1145px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
     transform: rotate(10deg);
     transition: all 0.4s ease-out; 
     cursor: pointer;
+    z-index: 999;
 }
 .gem-6:hover {
     transform: scale(1.1) rotate(5deg); 
@@ -1065,11 +965,12 @@ nav a img:hover {
 .gem-7 {
     position: absolute;
     width: 190px;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-left: 1275px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
     transition: all 0.4s ease-out; 
     cursor: pointer;
+    z-index: 999;
 }
 .gem-7:hover {
     transform: scale(1.1) rotate(5deg); 
@@ -1078,11 +979,12 @@ nav a img:hover {
 .gem-8 {
     position: absolute;
     width: 140px;
-    margin-top: 260px;
+    margin-top: 290px;
     margin-left: 1380px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
     transition: all 0.4s ease-out; 
     cursor: pointer;
+    z-index: 999;
 }
 .gem-8:hover {
     transform: scale(1.1) rotate(5deg); 
@@ -1091,11 +993,12 @@ nav a img:hover {
 .gem-9 {
     position: absolute;
     width: 240px;
-    margin-top: 420px;
+    margin-top: 490px;
     margin-left: 1275px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
     transition: all 0.4s ease-out; 
     cursor: pointer;
+    z-index: 999;
 }
 .gem-9:hover {
     transform: scale(1.1) rotate(5deg); 
@@ -1104,12 +1007,13 @@ nav a img:hover {
 .gem-10 {
     position: absolute;
     width: 240px;
-    margin-top: 1000px;
+    margin-top: 1100px;
     margin-left: 120px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
     transform: rotate(30deg);
     transition: all 0.4s ease-out; 
     cursor: pointer;
+    z-index: 999;
 }
 .gem-10:hover {
     transform: scale(1.1) rotate(5deg); 
@@ -1123,6 +1027,7 @@ nav a img:hover {
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
     transition: all 0.4s ease-out; 
     cursor: pointer;
+    z-index: 999;
 }
 .gem-11:hover {
     transform: scale(1.1) rotate(5deg); 
@@ -1131,11 +1036,12 @@ nav a img:hover {
 .gem-12 {
     position: absolute;
     width: 160px;
-    margin-top: 720px;
+    margin-top: 800px;
     margin-left: 1170px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
     transition: all 0.4s ease-out;
     cursor: pointer;
+    z-index: 999;
 }
 .gem-12:hover {
     transform: scale(1.1) rotate(5deg); 
@@ -1144,16 +1050,125 @@ nav a img:hover {
 .gem-13 {
     position: absolute;
     width: 240px;
-    margin-top: 900px;
+    margin-top: 1050px;
     margin-left: 1265px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
     transform: rotate(-30deg);
     transition: all 0.4s ease-out; 
     cursor: pointer;
+    z-index: 999;
 }
 .gem-13:hover {
     transform: scale(1.1) rotate(5deg); 
     filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)) brightness(1.2) saturate(1.1);
+}
+.rodape-sobre-1-s {
+    width: 1505px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -10px;
+}
+.logo-sobre-s {
+    position: absolute;
+    pointer-events: none;
+    width: 170px;
+    margin-left: -20px;
+    margin-top: 1350px;
+    filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
+}
+.titulo-redes-sobre-s {
+    position: absolute;
+    pointer-events: none;
+    width: 240px;
+    margin-left: 1080px;
+    margin-top: 1310px;
+    filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
+}
+.titulo-contato-sobre-s {
+    position: absolute;
+    pointer-events: none;
+    width: 240px;
+    margin-left: 630px;
+    margin-top: 1310px;
+    filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
+}
+.titulo-creditos-sobre-s {
+    position: absolute;
+    pointer-events: none;
+    width: 240px;
+    margin-left: 210px;
+    margin-top: 1310px;
+    filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
+}
+.insta-icone-s {
+    position: absolute;
+    pointer-events: none;
+    width: 40px;
+    margin-left: 205px;
+    margin-top: 1495px;
+}
+.linkedin-icone-s {
+    position: absolute;
+    pointer-events: none;
+    width: 40px;
+    margin-left: 205px;
+    margin-top: 1635px;
+}
+.git-icone-s {
+    position: absolute;
+    pointer-events: none;
+    width: 40px;
+    margin-left: 205px;
+    margin-top: 1565px;
+}
+.mail-icone-s {
+    position: absolute;
+    pointer-events: none;
+    width: 45px;
+    margin-left: 620px;
+    margin-top: 1490px;
+}
+.creditos-sobre-s {
+    position: absolute;
+    pointer-events: none;
+    width: 570px;
+    margin-left: 990px;
+    margin-top: 1120px;
+}
+.instagram-1-sobre-s {
+    position: absolute;
+    pointer-events: none;
+    width: 190px;
+    margin-left: 245px;
+    margin-top: 1344px;
+}
+.git-1-sobre-s {
+    position: absolute;
+    pointer-events: none;
+    width: 230px;
+    margin-left: 250px;
+    margin-top: 1380px;
+}
+.linkedin-1-sobre-s {
+    position: absolute;
+    pointer-events: none;
+    width: 230px;
+    margin-left: 252px;
+    margin-top: 1445px;
+}
+.email-1-sobre-s {
+    position: absolute;
+    pointer-events: none;
+    width: 280px;
+    margin-left: 670px;
+    margin-top: 1255px;
+}
+.ano-rodape-sobre-s {
+    position: absolute;
+    pointer-events: none;
+    width: 280px;
+    margin-left: 20px;
+    margin-top: 1420px;
 }
 /*area de ediçao da galeria*/
 main.secao-projetos {
@@ -1529,3 +1544,110 @@ main.secao-projetos {
     margin-left: 290px;
     position: absolute;
 }
+.texto-sobre-projetos3 {    
+    padding-top: 1694px;       
+    padding-bottom: 30px;
+    padding-left: 90px;      
+    padding-right: 600px; 
+    position: absolute;
+    box-sizing: border-box;   
+}   
+.texto-sobre-projetos3 p {
+    font-family: 'Gaegu', cursive; 
+    font-size: 16px;  
+    font-weight: 550;        
+    color: #333333; 
+    position: relative;       
+    line-height: 1px;       
+    margin: 0 0 30px 0;
+}
+.estrela7 {
+    width: 450px;
+    margin-top: 140px;
+    margin-left: 170px;
+    position: absolute;
+}
+.estrela8 {
+    width: 350px;
+    margin-top: 390px;
+    margin-left: 650px;
+    position: absolute;
+}
+.estrela9 {
+    width: 300px;
+    margin-top: 160px;
+    margin-left: -500px;
+    position: absolute;
+}
+.postit-projetos3 {
+    width: 440px;
+    margin-top: 350px;
+    margin-left: -90px;
+    position: absolute;
+    transform: rotate(-12deg);
+}
+.estrela10 {
+    width: 240px;
+    margin-top: 130px;
+    margin-left: 980px;
+    position: absolute;
+}
+.texto-sobre-projetos4 {    
+    padding-top: 530px;       
+    padding-bottom: 30px;
+    padding-left: 5px;      
+    padding-right: 90px; 
+    position: absolute;
+    box-sizing: border-box;   
+}   
+.texto-sobre-projetos4 p {
+    font-family: 'Gaegu', cursive; 
+    font-size: 16px;  
+    font-weight: 550;        
+    color: #333333; 
+    position: relative;       
+    line-height: 1px;       
+    margin: 0 0 30px 0;
+}
+.botao-projetos2 {
+    width: 170px;
+    margin-top: -500px;
+    margin-left: 190px;
+    position: absolute;
+    filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
+    transform: rotate(-12deg);
+}
+.botao-projetos3 {
+    width: 120px;
+    margin-top: -60px;
+    margin-left: 150px;
+    position: absolute;
+    filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
+}
+.botao-projetos4 {
+    width: 120px;
+    margin-top: -900px;
+    margin-left: 490px;
+    position: absolute;
+    filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
+    transform: rotate(-25deg);
+}
+/*area de ediçao de contato*/
+.cartas-contato {
+    width: 1090px;
+    margin-top: -140px;
+    margin-left: 180px;
+    position: absolute;
+}
+.email-botao {
+    width: 280px;
+    margin-top: 340px;
+    margin-left: 850px;
+    position: absolute;
+    z-index: 999;
+}
+.email-botao:hover {
+   transform: scale(1.1);
+   filter: drop-shadow(10px 7px 0px rgba(241, 62, 137, 0.986)); 
+}
+
