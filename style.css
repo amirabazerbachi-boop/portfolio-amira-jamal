@@ -1731,4 +1731,70 @@ main.secao-projetos {
    transform: scale(1.1);
    filter: drop-shadow(10px 7px 0px rgba(241, 62, 137, 0.986)); 
 }
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(5px);
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.modal-overlay:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-conteudo {
+    position: relative;
+    max-width: 90vh; 
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa-fechar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 2100;
+}
+
+.botao-fechar {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    font-size: 35px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(255,255,255,0.5);
+    pointer-events: auto;
+    transition: transform 0.2s, color 0.2s;
+}
+
+.botao-fechar:hover {
+    color: #f00;
+    transform: scale(1.2);
+}
+
+.imagem-grande {
+    width: 100%;
+    height: auto;
+    max-height: 85vh; 
+    object-fit: contain;
+    border-radius: 20px; 
+}
 
