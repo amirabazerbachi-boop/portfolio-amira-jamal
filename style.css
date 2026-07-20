@@ -220,6 +220,13 @@ nav a img:hover {
     margin-left: 670px;
     margin-top: -3020px;
 }
+.foto-4 {
+    position: absolute;
+    pointer-events: none;
+    width: 470px;
+    margin-left: 1030px;
+    margin-top: -3000px;
+}
 /*area de ediçao de linha do tempo*/
 .fundo-home {
     position: absolute;
@@ -1025,18 +1032,11 @@ nav a img:hover {
     margin-left: 20px;
     margin-top: 10px;
 }
-.foto-4 {
-    position: absolute;
-    pointer-events: none;
-    width: 470px;
-    margin-left: 1030px;
-    margin-top: -3000px;
-}
 /*pagina sobre mim*/
 .fundo-sobre-mim {
     position: absolute;
     pointer-events: none;
-    width: 1503px;
+    width: 1351px;
     margin-top: 8px;
     margin-left: -8px;
     z-index: -9999;
@@ -1044,16 +1044,16 @@ nav a img:hover {
 .fundo-sobre-mim-2 {
     position: absolute;
     pointer-events: none;
-    width: 1503px;
-    margin-top: 50px;
+    width: 1351px;
+    margin-top: 47px;
     margin-left: -8px;
     z-index: -9999;
 }
 .retangulo-3 {
-    width: 1000px;           
-    height: 1015px;           
+    width: 870px;           
+    height: 1120px;           
     background-color: #fffcf0; 
-    margin-left: 240px ;
+    margin-left: 235px ;
     margin-top: 190px;
     position: absolute;
     background-image: linear-gradient(#ebe4ce 1px, transparent 1px);
@@ -1088,9 +1088,9 @@ nav a img:hover {
 .argolas {
     position: absolute;
     pointer-events: none;
-    width: 1110px;
-    margin-left: 185px;
-    margin-top: -397px;
+    width: 1000px;
+    margin-left: 170px;
+    margin-top: -339px;
 }
 .ficha {    
     padding-top: 285px;       
@@ -1106,14 +1106,14 @@ nav a img:hover {
     font-weight: 550;        
     color: #333333; 
     position: relative;       
-    line-height: 6px;       
+    line-height: 5px;       
     margin: 0 0 30px 0;
 }
 .gem-1 {
     position: absolute;
     transition: all 0.4s ease-out; 
     cursor: pointer;
-    width: 200px;
+    width: 170px;
     margin-top: 100px;
     margin-left: 20px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
@@ -1142,7 +1142,7 @@ nav a img:hover {
     position: absolute;
     width: 160px;
     margin-top: 450px;
-    margin-left: 130px;
+    margin-left: 120px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
     z-index: -9;
     transition: all 0.4s ease-out;
@@ -1156,8 +1156,8 @@ nav a img:hover {
 .gem-4 {
     position: absolute;
     width: 160px;
-    margin-top: 600px;
-    margin-left: 10px;
+    margin-top: 700px;
+    margin-left: 30px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
     transition: all 0.4s ease-out; 
     cursor: pointer;
@@ -1169,7 +1169,7 @@ nav a img:hover {
 }
 .gem-5 {
     position: absolute;
-    width: 130px;
+    width: 120px;
     margin-top: 240px;
     margin-left: 900px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
@@ -1185,8 +1185,8 @@ nav a img:hover {
 .gem-6 {
     position: absolute;
     width: 160px;
-    margin-top: 270px;
-    margin-left: 1145px;
+    margin-top: 380px;
+    margin-left: 1020px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
     transform: rotate(10deg);
     transition: all 0.4s ease-out; 
@@ -1201,7 +1201,7 @@ nav a img:hover {
     position: absolute;
     width: 190px;
     margin-top: 70px;
-    margin-left: 1275px;
+    margin-left: 1130px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
     transition: all 0.4s ease-out; 
     cursor: pointer;
@@ -1215,7 +1215,7 @@ nav a img:hover {
     position: absolute;
     width: 140px;
     margin-top: 290px;
-    margin-left: 1380px;
+    margin-left: 1240px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
     transition: all 0.4s ease-out; 
     cursor: pointer;
@@ -1227,9 +1227,9 @@ nav a img:hover {
 }
 .gem-9 {
     position: absolute;
-    width: 240px;
-    margin-top: 490px;
-    margin-left: 1275px;
+    width: 220px;
+    margin-top: 540px;
+    margin-left: 1170px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
     transition: all 0.4s ease-out; 
     cursor: pointer;
@@ -1241,8 +1241,8 @@ nav a img:hover {
 }
 .gem-10 {
     position: absolute;
-    width: 240px;
-    margin-top: 1100px;
+    width: 210px;
+    margin-top: 1210px;
     margin-left: 120px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
     transform: rotate(30deg);
@@ -1257,7 +1257,7 @@ nav a img:hover {
 .gem-11 {
     position: absolute;
     width: 240px;
-    margin-top: 800px;
+    margin-top: 960px;
     margin-left: -100px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
     transition: all 0.4s ease-out; 
@@ -1271,8 +1271,8 @@ nav a img:hover {
 .gem-12 {
     position: absolute;
     width: 160px;
-    margin-top: 800px;
-    margin-left: 1170px;
+    margin-top: 840px;
+    margin-left: 1150px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
     transition: all 0.4s ease-out;
     cursor: pointer;
@@ -1284,9 +1284,9 @@ nav a img:hover {
 }
 .gem-13 {
     position: absolute;
-    width: 240px;
+    width: 230px;
     margin-top: 1050px;
-    margin-left: 1265px;
+    margin-left: 1120px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
     transform: rotate(-30deg);
     transition: all 0.4s ease-out; 
@@ -1298,24 +1298,24 @@ nav a img:hover {
     filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)) brightness(1.2) saturate(1.1);
 }
 .rodape-sobre-1-s {
-    width: 1505px;
+    width: 1355px;
     position: absolute;
-    margin-top: 200px;
+    margin-top: 340px;
     margin-left: -10px;
 }
 .logo-sobre-s {
     position: absolute;
     pointer-events: none;
-    width: 170px;
+    width: 150px;
     margin-left: -20px;
-    margin-top: 1350px;
+    margin-top: 1380px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
 }
 .titulo-redes-sobre-s {
     position: absolute;
     pointer-events: none;
     width: 240px;
-    margin-left: 1080px;
+    margin-left: 1020px;
     margin-top: 1310px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
 }
@@ -1323,7 +1323,7 @@ nav a img:hover {
     position: absolute;
     pointer-events: none;
     width: 240px;
-    margin-left: 630px;
+    margin-left: 600px;
     margin-top: 1310px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
 }
@@ -1331,79 +1331,79 @@ nav a img:hover {
     position: absolute;
     pointer-events: none;
     width: 240px;
-    margin-left: 210px;
+    margin-left: 200px;
     margin-top: 1310px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
 }
 .insta-icone-s {
     position: absolute;
     pointer-events: none;
-    width: 40px;
+    width: 30px;
     margin-left: 205px;
     margin-top: 1495px;
 }
 .linkedin-icone-s {
     position: absolute;
     pointer-events: none;
-    width: 40px;
-    margin-left: 205px;
+    width: 30px;
+    margin-left: 204px;
     margin-top: 1635px;
 }
 .git-icone-s {
     position: absolute;
     pointer-events: none;
-    width: 40px;
-    margin-left: 205px;
+    width: 35px;
+    margin-left: 202px;
     margin-top: 1565px;
 }
 .mail-icone-s {
     position: absolute;
     pointer-events: none;
-    width: 45px;
-    margin-left: 620px;
+    width: 30px;
+    margin-left: 580px;
     margin-top: 1490px;
 }
 .creditos-sobre-s {
     position: absolute;
     pointer-events: none;
-    width: 570px;
-    margin-left: 990px;
-    margin-top: 1120px;
+    width: 530px;
+    margin-left: 900px;
+    margin-top: 1150px;
 }
 .instagram-1-sobre-s {
     position: absolute;
     pointer-events: none;
-    width: 190px;
-    margin-left: 245px;
+    width: 180px;
+    margin-left: 240px;
     margin-top: 1344px;
 }
 .git-1-sobre-s {
     position: absolute;
     pointer-events: none;
-    width: 230px;
-    margin-left: 250px;
-    margin-top: 1380px;
+    width: 210px;
+    margin-left: 240px;
+    margin-top: 1396px;
 }
 .linkedin-1-sobre-s {
     position: absolute;
     pointer-events: none;
-    width: 230px;
-    margin-left: 252px;
-    margin-top: 1445px;
+    width: 200px;
+    margin-left: 240px;
+    margin-top: 1466px;
 }
 .email-1-sobre-s {
     position: absolute;
     pointer-events: none;
-    width: 280px;
-    margin-left: 670px;
-    margin-top: 1255px;
+    width: 250px;
+    margin-left: 610px;
+    margin-top: 1273px;
 }
 .ano-rodape-sobre-s {
     position: absolute;
     pointer-events: none;
     width: 280px;
     margin-left: 20px;
-    margin-top: 1420px;
+    margin-top: 1410px;
 }
 /*area de ediçao da galeria*/
 main.secao-projetos {
