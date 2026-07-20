@@ -1,4 +1,4 @@
-/*area de ediçao do home*/
+/*area de edição fundo e navegador*/
 body {
     overflow-x: hidden;
     background-color: #fff8e1;
@@ -19,7 +19,7 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 70px;
-    width: 1501px; 
+    width: 1351px; 
     overflow: visible;
     position: fixed;
     z-index: 9999;
@@ -62,10 +62,11 @@ nav a img:hover {
     transform: scale(1.1);
     filter: drop-shadow(4px 4px 0px rgba(148, 18, 199, 0.849));
 }
+/*area de edição do header-home*/
 .caderno-home {
     position: absolute;
     pointer-events: none;
-    width: 645px;
+    width: 580px;
     height: auto;
     margin-left: -15px;
     margin-top: 50px;
@@ -73,24 +74,24 @@ nav a img:hover {
 .titulo-home {
     position: absolute;
     pointer-events: none;
-    width: 590px;
+    width: 560px;
     margin-top: 30px;
-    margin-left: 280px; 
+    margin-left: 230px; 
     transform: rotate(6deg);
 }
 .saudação-home {
     position: absolute;
     pointer-events: none;
-    width: 520px;
+    width: 460px;
     margin-top: 250px;
-    margin-left: 190px; 
+    margin-left: 160px; 
     z-index: -1;
 }
 .perfil-home {
     position: absolute;
-    width: 390px;
-    margin-top: 170px;
-    margin-left: 830px;
+    width: 360px;
+    margin-top: 165px;
+    margin-left: 760px;
 }
 .perfil-home:hover {
     transform: scale(1.1);
@@ -100,7 +101,7 @@ nav a img:hover {
     position: absolute;
     pointer-events: none;
     width: 340px;
-    margin-left: 570px;
+    margin-left: 500px;
     margin-top: -10px;
     transform: rotate(-10deg);
 }
@@ -108,7 +109,7 @@ nav a img:hover {
     position: absolute;
     pointer-events: none;
     width: 160px;
-    margin-left: 1075px;
+    margin-left: 1000px;
     margin-top: 55px;
     transform: rotate(-18deg);
 }
@@ -116,57 +117,63 @@ nav a img:hover {
     position: absolute;
     pointer-events: none;
     width: 180px;
-    margin-left: 1315px;
+    margin-left: 1170px;
     margin-top: 62px;
 }
 .deco-direita-home {
     position: absolute;
     pointer-events: none;
-    width: 400px;
-    margin-left: 1093px;
-    margin-top: 295px;
+    width: 360px;
+    margin-left: 982px;
+    margin-top: 263px;
 }
 /*area de ediçao de sobre-mim*/
 .fundo-1-home{
     position: absolute;
     pointer-events: none;
-    width: 1501px;
-    margin-top: 695px;
+    width: 1351px;
+    margin-top: 678px;
     margin-left:-8px;
 }
 .fita-cetim-home {
     position: absolute;
     pointer-events: none;
-    width: 1501px;
-    margin-top: -28px;
+    width: 1351px;
+    margin-top: -8px;
     margin-left:-8px;
+}
+.sobre-mim-2-home {
+    position: absolute;
+    pointer-events: none;
+    width: 280px;
+    margin-left: -15px;
+    margin-top: 440px;
 }
 .postit-2-home {
     position: absolute;
     pointer-events: none;
-    width: 400px;
-    margin-left: 940px;
-    margin-top: 900px;
+    width: 360px;
+    margin-left: 920px;
+    margin-top: 890px;
     z-index: 1;
 }
 .foto-2-home {
     position: absolute;
     pointer-events: none;
-    width: 500px;
-    margin-left: -20px;
-    margin-top: 870px;
+    width: 450px;
+    margin-left: 20px;
+    margin-top: 850px;
 }
 .container-carta {
     position: relative;
-    width: 600px;
     height: 200px;
     cursor: pointer;
 }
 .carta {
     position: absolute;
-    width: 600px;
-    top: 780px;
-    left:360px;
+    width: 530px;
+    top: 740px;
+    left: 400px;
     transition: opacity 0.4s ease-in-out;
     z-index: 9998;
     transform: rotate(-10deg);
@@ -186,63 +193,70 @@ nav a img:hover {
 .link-ticket {
     position: absolute; 
     z-index: 999;
-    width: 300px;
     margin-left: 310px;
-    margin-top: 960px;
+    margin-top: 900px;
     display: inline-block;
 }
 .ticket-home {
-    width: 300px;
+    width: 270px;
     height: auto;
     transition: transform 0.3s ease;
 }
 .link-ticket:hover .ticket-home {
     transform: scale(1.08);
 }
-.sobre-mim-2-home {
+.bandeiras-home {
     position: absolute;
     pointer-events: none;
-    width: 300px;
-    margin-left: -15px;
-    margin-top: 480px;
+    width: 200px;
+    margin-left: 1130px;
+    margin-top: -3220px;
+    z-index: 1;
+}
+.foto3 {
+    position: absolute;
+    pointer-events: none;
+    width: 360px;
+    margin-left: 670px;
+    margin-top: -3020px;
 }
 /*area de ediçao de linha do tempo*/
 .fundo-home {
     position: absolute;
     pointer-events: none;
-    width: 1502px;
-    margin-top: 1501px;
+    width: 1352px;
+    margin-top: 1510px;
     margin-left:-8px;
 }
 .separador-home {
     position: absolute;
     pointer-events: none;
-    width: 1502px;
+    width: 1351px;
     transform: rotate(90deg);
-    margin-top: 810px;
+    margin-top: 781px;
     margin-left:-8px;
 }
 .caderno-2-home {
     position: absolute;
     pointer-events: none;
-    width: 1300px;
-    margin-top: 1630px;
-    margin-left:90px;
+    width: 1250px;
+    margin-top: 1530px;
+    margin-left: 40px;
     filter: drop-shadow(6px 6px 8px rgba(0, 0, 0, 0.25));
 }
 .fita-3-home {
     position: absolute;
     pointer-events: none;
-    width: 1000px;
+    width: 850px;
     margin-left: 240px;
-    margin-top: 1395px;
+    margin-top: 1380px;
 }
 .timeline-wrapper {
     position: absolute;
     width: 1400px;       
     height: 300px;      
-    margin-top: 1780px; /*onde os cards ficam na vertical*/
-    margin-left: 50px; /*mesmo ajuste mas na horizontal*/
+    margin-top: 1680px; /*onde os cards ficam na vertical*/
+    margin-left: -20px; /*mesmo ajuste mas na horizontal*/
     z-index: 100;
     overflow: hidden;
 }
@@ -498,23 +512,23 @@ nav a img:hover {
 .botao-1-home {
     position: absolute;
     pointer-events: none;
-    width: 100px;
-    margin-left: 370px;
-    margin-top: 1870px;
+    width: 90px;
+    margin-left: 310px;
+    margin-top: 1780px;
 }
 .botao-2-home {
     position: absolute;
     pointer-events: none;
-    width: 100px;
-    margin-left: 685px;
-    margin-top: 1870px;
+    width: 90px;
+    margin-left: 620px;
+    margin-top: 1780px;
 }
 .botao-3-home {
     position: absolute;
     pointer-events: none;
-    width: 100px;
-    margin-left: 1010px;
-    margin-top: 1870px;
+    width: 90px;
+    margin-left: 940px;
+    margin-top: 1780px;
 }
 .modal-overlay {
     position: fixed;
@@ -572,21 +586,19 @@ nav a img:hover {
     object-fit: contain;
     border-radius: 20px; 
 }
-
-
 /*area de ediçao de galeria*/
 .fundo-3-home {
     position: absolute;
     pointer-events: none;
-    width: 1501px;
-    margin-top: 2102px;
+    width: 1350px;
+    margin-top: 2043px;
     margin-left:-8px;
 }
 .moldura-1-home {
     position: absolute;
-    width: 500px;
+    width: 450px;
     margin-left: -70px;
-    margin-top: 2114px;
+    margin-top: 2043px;
     filter: drop-shadow(10px 10px 1px rgba(0, 0, 0, 0.25));
     transform-origin: top center; 
     transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1.2);
@@ -599,9 +611,9 @@ nav a img:hover {
 }
 .moldura-2-home {
     position: absolute;
-    width: 660px;
+    width: 570px;
     margin-left: 190px;
-    margin-top: 2116px;
+    margin-top: 2044px;
     filter: drop-shadow(10px 10px 1px rgba(0, 0, 0, 0.25));
     transform-origin: top center; 
     transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1.2);
@@ -614,9 +626,9 @@ nav a img:hover {
 }
 .moldura-3-home {
     position: absolute;
-    width: 550px;
-    margin-left: 640px;
-    margin-top: 2119px;
+    width: 490px;
+    margin-left: 550px;
+    margin-top: 2046px;
     filter: drop-shadow(10px 10px 1px rgba(0, 0, 0, 0.25));
     transform-origin: top center; 
     transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1.2);
@@ -629,9 +641,9 @@ nav a img:hover {
 }
 .moldura-4-home {
     position: absolute;
-    width: 450px;
-    margin-left: 1040px;
-    margin-top: 2137px;
+    width: 390px;
+    margin-left: 930px;
+    margin-top: 2078px;
     filter: drop-shadow(10px 10px 1px rgba(0, 0, 0, 0.25));
     transform-origin: top center; 
     transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1.2);
@@ -647,34 +659,34 @@ nav a img:hover {
     position: absolute;
     pointer-events: none;
     width: 180px;
-    margin-left: 96px;
-    margin-top: 2570px;
+    margin-left: 70px;
+    margin-top: 2455px;
 }
 .titulo-2-home {
     position: absolute;
     pointer-events: none;
     width: 180px;
-    margin-left: 428px;
-    margin-top: 2739px;
+    margin-left: 387px;
+    margin-top: 2570px;
 }
 .titulo-3-home {
     position: absolute;
     pointer-events: none;
     width: 180px;
-    margin-left: 825px;
-    margin-top: 2612px;
+    margin-left: 702px;
+    margin-top: 2492px;
 }
 .titulo-4-home {
     position: absolute;
     pointer-events: none;
     width: 180px;
-    margin-left: 1180px;
-    margin-top: 2569px;
+    margin-left: 1040px;
+    margin-top: 2417px;
 }
 .separador-3-home {
     position: absolute;
     pointer-events: none;
-    width: 1501px;
+    width: 1351px;
     margin-left: -8px;
     margin-top: 1387px;
     transform: rotate(-90deg);
@@ -695,12 +707,10 @@ nav a img:hover {
     z-index: 2000;
     transition: opacity 0.3s ease, visibility 0.3s ease;
 }
-
 .modal-overlay:target {
     opacity: 1;
     visibility: visible;
 }
-
 .modal-conteudo {
     position: relative;
     max-width: 90vh; 
@@ -709,7 +719,6 @@ nav a img:hover {
     justify-content: center;
     align-items: center;
 }
-
 .caixa-fechar {
     position: absolute;
     top: 0;
@@ -719,7 +728,6 @@ nav a img:hover {
     pointer-events: none;
     z-index: 2100;
 }
-
 .botao-fechar {
     position: absolute;
     top: 50px;
@@ -732,12 +740,10 @@ nav a img:hover {
     pointer-events: auto;
     transition: transform 0.2s, color 0.2s;
 }
-
 .botao-fechar:hover {
     color: #f00;
     transform: scale(1.2);
 }
-
 .imagem-grande {
     width: 100%;
     height: auto;
@@ -747,17 +753,17 @@ nav a img:hover {
 }
 /*area de ediçao de habilidades*/
 .retangulo {
-  width: 1501px;           
+  width: 1351px;           
   height: 900px;           
   background-color: #ffec98; 
   margin-left: -8px;
-  margin-top: 2964px;
+  margin-top: 2900px; 
 }
 .caderno-habilidades-home {
-  width: 1090px;  
+  width: 1070px;  
   position: absolute;                
-  margin-left: 190px;
-  margin-top: -1000px;
+  margin-left: 120px;
+  margin-top: -1075px;
   transform: rotate(90deg);
   z-index: 1;
 }
@@ -765,143 +771,143 @@ nav a img:hover {
     position: absolute;
     pointer-events: none;
     width: 170px;
-    margin-left: 340px;
-    margin-top: -700px ;
+    margin-left: 280px;
+    margin-top: -800px ;
     z-index: 1;
 }
 .habilidade-css-home {
     position: absolute;
     pointer-events: none;
     width: 170px;
-    margin-left: 520px;
-    margin-top: -700px;
+    margin-left: 460px;
+    margin-top: -800px;
     z-index: 1;
 }
 .titulo-h-home {
     position: absolute;
     pointer-events: none;
     width: 500px;
-    margin-left: 500px;
-    margin-top: -910px ;
+    margin-left: 430px;
+    margin-top: -985px ;
     z-index: 90;
 }
 .retangulo-2 {
     position: absolute;
-    width: 1501px;           
-    height: 70px;           
+    width: 1351px;           
+    height: 83px;           
     background-color: #e798ff; 
     margin-left: -8px;
-    margin-top: -903px;
+    margin-top: -983px;
 }
 .habilidade-git-home {
     position: absolute;
     pointer-events: none;
     width: 170px;
-    margin-left: 340px;
-    margin-top: -530px;
+    margin-left: 280px;
+    margin-top: -630px;
     z-index: 1;
 }
 .habilidade-ux-home {
     position: absolute;
     pointer-events: none;
     width: 170px;
-    margin-left: 520px;
-    margin-top: -530px;
+    margin-left: 460px;
+    margin-top: -630px;
     z-index: 1;
 }
 .habilidade-equipe-home {
     position: absolute;
     pointer-events: none;
     width: 170px;
-    margin-left: 340px;
-    margin-top: -360px;
+    margin-left: 280px;
+    margin-top: -460px;
     z-index: 1;
 }
 .habilidade-comunicaçao-home {
     position: absolute;
     pointer-events: none;
     width: 170px;
-    margin-left: 520px;
-    margin-top: -360px;
+    margin-left: 460px;
+    margin-top: -460px;
     z-index: 1;
 }
 .deco-habilidade7 {
     position: absolute;
     pointer-events: none;
-    width: 670px;
-    margin-left: 680px;
-    margin-top: -800px;
+    width: 640px;
+    margin-left: 590px;
+    margin-top: -850px;
     z-index: 1;
 }
 .deco-habilidade9 {
     position: absolute;
     pointer-events: none;
-    width: 320px;
-    margin-left: 850px;
-    margin-top: -630px;
+    width: 300px;
+    margin-left: 760px;
+    margin-top: -680px;
     z-index: 1;
 }
 .deco-habilidade {
     position: absolute;
     pointer-events: none;
     width: 130px;
-    margin-left: 850px;
-    margin-top: -630px;
+    margin-left: 750px;
+    margin-top: -700px;
     z-index: 1;
 }
 .deco-habilidade2 {
     position: absolute;
     pointer-events: none;
     width: 100px;
-    margin-left: 1090px;
-    margin-top: -740px;
+    margin-left: 980px;
+    margin-top: -780px;
     z-index: 1;
 }
 .deco-habilidade3 {
     position: absolute;
     pointer-events: none;
     width: 100px;
-    margin-left: 800px;
-    margin-top: -320px;
+    margin-left: 740px;
+    margin-top: -370px;
     z-index: 1;
 }
 .deco-habilidade4 {
     position: absolute;
     pointer-events: none;
-    width: 130px;
-    margin-left: 1070px;
-    margin-top: -460px;
+    width: 110px;
+    margin-left: 990px;
+    margin-top: -570px;
     z-index: 1;
 }
 .deco-habilidade5 {
     position: absolute;
     pointer-events: none;
-    width: 160px;
-    margin-left: 1050px;
-    margin-top: -330px;
+    width: 140px;
+    margin-left: 980px;
+    margin-top: -420px;
     z-index: 1;
 }
 .deco-habilidade6 {
     position: absolute;
     pointer-events: none;
     width: 130px;
-    margin-left: 800px;
-    margin-top: -750px;
+    margin-left: 740px;
+    margin-top: -830px;
     z-index: 1;
 }
 .deco-habilidade10 {
     position: absolute;
     pointer-events: none;
     width: 400px;
-    margin-left: 1240px;
+    margin-left: 1140px;
     margin-top: -750px;
 }
 .deco-habilidade11 {
     position: absolute;
     pointer-events: none;
-    width: 400px;
+    width: 300px;
     margin-left: 20px;
-    margin-top: -890px;
+    margin-top: -940px;
 }
 .deco-habilidade12 {
     position: absolute;
@@ -910,17 +916,17 @@ nav a img:hover {
     margin-left: -150px;
     margin-top: -490px;
 }
-/*area de ediçao de footer*/
+/*area de ediçao de footer-home*/
 .rodape {
-    width: 1502px;
+    width: 1353px;
     position: absolute;
-    margin-top: -1180px;
+    margin-top: -1060px;
     margin-left: -9px;
 }
 .logo-rodape {
     position: absolute;
     pointer-events: none;
-    width: 170px;
+    width: 150px;
     margin-left: -20px;
     margin-top: -30px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
@@ -937,7 +943,7 @@ nav a img:hover {
     position: absolute;
     pointer-events: none;
     width: 240px;
-    margin-left: 630px;
+    margin-left: 600px;
     margin-top: -80px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
 }
@@ -945,71 +951,71 @@ nav a img:hover {
     position: absolute;
     pointer-events: none;
     width: 240px;
-    margin-left: 1090px;
+    margin-left: 1000px;
     margin-top: -80px;
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
 }
 .insta-copia {
     position: absolute;
     pointer-events: none;
-    width: 40px;
+    width: 30px;
     margin-left: 205px;
-    margin-top: 120px;
+    margin-top: 100px;
 }
 .linkedin-copia {
     position: absolute;
     pointer-events: none;
-    width: 40px;
+    width: 30px;
     margin-left: 205px;
-    margin-top: 180px;
+    margin-top: 165px;
 }
 .git-copia {
     position: absolute;
     pointer-events: none;
-    width: 40px;
-    margin-left: 205px;
-    margin-top: 238px;
+    width: 33px;
+    margin-left: 203px;
+    margin-top: 230px;
 }
 .mail-copia {
     position: absolute;
     pointer-events: none;
-    width: 40px;
-    margin-left: 620px;
-    margin-top: 120px;
+    width: 30px;
+    margin-left: 580px;
+    margin-top: 99px;
 }
 .creditos {
     position: absolute;
     pointer-events: none;
-    width: 570px;
-    margin-left: 990px;
-    margin-top: -260px;
+    width: 530px;
+    margin-left: 900px;
+    margin-top: -240px;
 }
 .instagram-1 {
     position: absolute;
     pointer-events: none;
-    width: 190px;
-    margin-left: 245px;
-    margin-top: 45px;
+    width: 180px;
+    margin-left: 235px;
+    margin-top: 28px;
 }
 .git-1 {
     position: absolute;
     pointer-events: none;
-    width: 230px;
-    margin-left: 250px;
-    margin-top: 50px;
+    width: 210px;
+    margin-left: 240px;
+    margin-top: 57px;
 }
 .linkedin-1 {
     position: absolute;
     pointer-events: none;
-    width: 230px;
-    margin-left: 252px;
-    margin-top: -11px;
+    width: 210px;
+    margin-left: 240px;
+    margin-top: -14px;
 }
 .email-1 {
     position: absolute;
     pointer-events: none;
-    width: 280px;
-    margin-left: 660px;
+    width: 250px;
+    margin-left: 610px;
     margin-top: -120px;
 }
 .ano-rodape {
@@ -1017,7 +1023,7 @@ nav a img:hover {
     pointer-events: none;
     width: 280px;
     margin-left: 20px;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 .foto-4 {
     position: absolute;
