@@ -1872,6 +1872,115 @@ main.secao-projetos {
     filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
     transform: rotate(-25deg);
 }
+.rodape-p {
+    width: 1355px;
+    position: absolute;
+    margin-top: -735px;
+    margin-left: -310px;
+}
+.logo-footer-p {
+    position: absolute;
+    pointer-events: none;
+    width: 150px;
+    margin-left: -320px;
+    margin-top: 295px;
+    filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
+}
+.titulo-redes-projetos {
+    position: absolute;
+    pointer-events: none;
+    width: 240px;
+    margin-left: -100px;
+    margin-top: 240px;
+    filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
+}
+.titulo-contato-projetos {
+    position: absolute;
+    pointer-events: none;
+    width: 240px;
+    margin-left: 290px;
+    margin-top: 240px;
+    filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
+}
+.titulo-creditos-projetos {
+    position: absolute;
+    pointer-events: none;
+    width: 240px;
+    margin-left: 700px;
+    margin-top: 240px;
+    filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
+}
+.insta-icone-p {
+    position: absolute;
+    pointer-events: none;
+    width: 30px;
+    margin-left: -100px;
+    margin-top: 440px;
+}
+.linkedin-icone-p {
+    position: absolute;
+    pointer-events: none;
+    width: 30px;
+    margin-left: -100px;
+    margin-top: 500px;
+}
+.git-icone-p {
+    position: absolute;
+    pointer-events: none;
+    width: 35px;
+    margin-left: -103px;
+    margin-top: 560px;
+}
+.mail-icone-p {
+    position: absolute;
+    pointer-events: none;
+    width: 30px;
+    margin-left: 270px;
+    margin-top: 440px;
+}
+.creditos-projetos {
+    position: absolute;
+    pointer-events: none;
+    width: 530px;
+    margin-left: 599px;
+    margin-top: 80px;
+}
+.instagram-projetos {
+    position: absolute;
+    pointer-events: none;
+    width: 180px;
+    margin-left: -70px;
+    margin-top: 290px;
+}
+.github-projetos {
+    position: absolute;
+    pointer-events: none;
+    width: 210px;
+    margin-left: -70px;
+    margin-top: 390px;
+}
+.linkedin-projetos {
+    position: absolute;
+    pointer-events: none;
+    width: 200px;
+    margin-left: -70px;
+    margin-top: 330px;
+}
+.email-projetos {
+    position: absolute;
+    pointer-events: none;
+    width: 250px;
+    margin-left: 305px;
+    margin-top: 223px;
+}
+.ano-projetos {
+    position: absolute;
+    pointer-events: none;
+    width: 280px;
+    margin-left: -280px;
+    margin-top: 320px;
+}
+
 /*area de ediçao de contato*/
 .cartas-contato {
     width: 1090px;
