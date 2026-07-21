@@ -1983,15 +1983,15 @@ main.secao-projetos {
 
 /*area de ediçao de contato*/
 .cartas-contato {
-    width: 1090px;
+    width: 1000px;
     margin-top: -140px;
-    margin-left: 180px;
+    margin-left: 150px;
     position: absolute;
 }
 .email-botao {
     width: 280px;
-    margin-top: 340px;
-    margin-left: 850px;
+    margin-top: 290px;
+    margin-left: 750px;
     position: absolute;
     z-index: 999;
 }
@@ -1999,5 +1999,164 @@ main.secao-projetos {
    transform: scale(1.1);
    filter: drop-shadow(10px 7px 0px rgba(241, 62, 137, 0.986)); 
 }
-
-
+.estrela-contato {
+    width: 480px;
+    margin-top: 100px;
+    margin-left: 1090px;
+    position: absolute;
+}
+.coraçao-contato {
+    width: 320px;
+    margin-top: 420px;
+    margin-left: -70px;
+    position: absolute;
+    transform: rotate(20deg);
+}
+.telefone-deco-contato {
+    width: 340px;
+    margin-top: 62px;
+    margin-left: -90px;
+    position: absolute;
+}
+.estrela-contato2 {
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 170px;
+    position: absolute;
+    transform: rotate(-20deg);
+    z-index: -1;
+}
+.abelha-deco {
+    width: 170px;
+    margin-top: 420px;
+    margin-left: 1140px;
+    position: absolute;
+}
+.laço-deco-contato {
+    width: 600px;
+    margin-top: 120px;
+    margin-left: 300px;
+    position: absolute;
+}
+.coraçoes-deco-contato {
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 1020px;
+    position: absolute;
+    transform: rotate(-20deg);
+}
+.cartas-deco-contato {
+    width: 240px;
+    margin-top: 560px;
+    margin-left: 950px;
+    position: absolute;
+    transform: rotate(30deg);
+}
+.rodape-c {
+    width: 1353px;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: -9px;
+}
+.logo-footer-c {
+    position: absolute;
+    pointer-events: none;
+    width: 150px;
+    margin-left: -10px;
+    margin-top: 840px;
+    filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
+}
+.titulo-redes-contato {
+    position: absolute;
+    pointer-events: none;
+    width: 240px;
+    margin-left: 240px;
+    margin-top: 780px;
+    filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
+}
+.titulo-contato-contato {
+    position: absolute;
+    pointer-events: none;
+    width: 240px;
+    margin-left: 620px;
+    margin-top: 780px;
+    filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
+}
+.titulo-creditos-contato {
+    position: absolute;
+    pointer-events: none;
+    width: 240px;
+    margin-left: 990px;
+    margin-top: 780px;
+    filter: drop-shadow(6px 3px 2px rgba(0, 0, 0, 0.219));
+}
+.insta-icone-c {
+    position: absolute;
+    pointer-events: none;
+    width: 30px;
+    margin-left: 243px;
+    margin-top: 970px;
+}
+.linkedin-icone-c {
+    position: absolute;
+    pointer-events: none;
+    width: 30px;
+    margin-left: 243px;
+    margin-top: 1030px;
+}
+.git-icone-c {
+    position: absolute;
+    pointer-events: none;
+    width: 35px;
+    margin-left: 241px;
+    margin-top: 1090px;
+}
+.mail-icone-c {
+    position: absolute;
+    pointer-events: none;
+    width: 30px;
+    margin-left: 590px;
+    margin-top: 970px;
+}
+.creditos-contato {
+    position: absolute;
+    pointer-events: none;
+    width: 530px;
+    margin-left: 898px;
+    margin-top: 620px;
+}
+.instagram-contato {
+    position: absolute;
+    pointer-events: none;
+    width: 180px;
+    margin-left: 274px;
+    margin-top: 819px;
+}
+.github-contato {
+    position: absolute;
+    pointer-events: none;
+    width: 210px;
+    margin-left: 275px;
+    margin-top: 920px;
+}
+.linkedin-contato {
+    position: absolute;
+    pointer-events: none;
+    width: 200px;
+    margin-left: 275px;
+    margin-top: 860px;
+}
+.email-contato {
+    position: absolute;
+    pointer-events: none;
+    width: 250px;
+    margin-left: 620px;
+    margin-top: 750px;
+}
+.ano-contato {
+    position: absolute;
+    pointer-events: none;
+    width: 280px;
+    margin-left: 30px;
+    margin-top: 870px;
+}
