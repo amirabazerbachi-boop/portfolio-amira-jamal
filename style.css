@@ -210,22 +210,8 @@ nav a img:hover {
     pointer-events: none;
     width: 200px;
     margin-left: 1130px;
-    margin-top: -3220px;
+    margin-top: -3180px;
     z-index: 1;
-}
-.foto3 {
-    position: absolute;
-    pointer-events: none;
-    width: 360px;
-    margin-left: 670px;
-    margin-top: -3020px;
-}
-.foto-4 {
-    position: absolute;
-    pointer-events: none;
-    width: 470px;
-    margin-left: 1030px;
-    margin-top: -3000px;
 }
 /*area de ediçao de linha do tempo*/
 .fundo-home {
@@ -288,7 +274,6 @@ nav a img:hover {
     scroll-snap-align: start;
     box-sizing: border-box;
     padding: 0 200px;
-    
 }
 .page-content {
     display: flex;
@@ -2159,4 +2144,312 @@ main.secao-projetos {
     width: 280px;
     margin-left: 30px;
     margin-top: 870px;
+}
+/*responsividade para tablet*/
+@media (max-width: 1024px) {
+    body {
+    background-size: 100% 13px;
+    }
+    header{
+    width: 395px;
+    height: 40px; 
+}
+    nav{
+    gap:35px;
+}
+.logo {
+    height: 40px;
+    margin-left: -5px;
+}
+nav a img {
+    height: 70px;
+}
+/*responsividade tela principal*/
+.caderno-home {
+    width: 180px;
+    margin-left: -12px;
+    margin-top: 30px;
+}
+.titulo-home {
+    width: 170px;
+    margin-top: 16px;
+    margin-left: 70px; 
+}
+.saudação-home {
+    width: 150px;
+    margin-top: 80px;
+    margin-left: 45px; 
+    z-index: -1;
+}
+.perfil-home {
+    width: 110px;
+    margin-top: 60px;
+    margin-left: 230px;
+}
+.seta-home {
+    width: 80px;
+    margin-left: 165px;
+    margin-top: 20px;
+    transform: rotate(-10deg);
+}
+.traços-home {
+    width: 40px;
+    margin-left: 295px;
+    margin-top: 35px;
+    transform: rotate(-20deg);
+}
+.postit-1-home {
+    width: 50px;
+    margin-left: 330px;
+    margin-top: 31px;
+}
+.deco-direita-home {
+    width: 90px;
+    margin-left: 297px;
+    margin-top: 115px;
+}
+/*responsividade area sobre mim*/
+.fundo-1-home{
+    width: 395px;
+    margin-top: 220px;
+    margin-left:-8px;
+}
+.fita-cetim-home {
+    width: 395px;
+    margin-top: 19px;
+    margin-left:-8px;
+}
+.sobre-mim-2-home {
+    width: 95px;
+    margin-left: -11px;
+    margin-top: 10px;
+}
+.postit-2-home {
+    width: 140px;
+    margin-left: 240px;
+    margin-top: 265px;
+}
+.foto-2-home {
+    width: 150px;
+    margin-left: -18px;
+    margin-top: 270px;
+}
+.carta {
+    width: 180px;
+    top: 230px;
+    left: 90px;
+    z-index: 1;
+}
+.link-ticket {
+    margin-left: 80px;
+    margin-top: 150px;
+}
+.ticket-home {
+    width: 90px;
+}
+.bandeiras-home {
+    width: 80px;
+    margin-left: 315px;
+    margin-top: -3760px;
+}
+/*responsividade linha do tempo*/
+.fundo-home {
+    width: 395px;
+    margin-top: 463px;
+    margin-left:-8px;
+}
+.separador-home {
+    width: 395px;
+    margin-top: 250px;
+    margin-left:-8px;
+}
+.caderno-2-home {
+    width: 370px;
+    margin-top: 480px;
+    margin-left: 2px;
+}
+.timeline-wrapper {      
+    margin-top: 425px; /*onde os cards ficam na vertical*/
+    margin-left: -506px; /*mesmo ajuste mas na horizontal*/
+}
+.card-1-home {
+    width: 90px;
+    height: auto;
+}
+.card-2-home {
+    width: 90px;
+    height: auto;
+}
+.card-3-home {
+    width: 90px; 
+    height: auto;
+}
+.card-4-home {
+    width: 90px; 
+    height: auto;
+}
+.card-5-home {
+    width: 90px;
+    height: auto;
+}
+.card-6-home {
+    width: 90px; 
+    height: auto;
+}
+.card-7-home {
+    width: 90px;
+    height: auto;
+}
+.card-8-home {
+    width: 90px;
+    height: auto;
+}
+.card-9-home {
+    width: 90px; 
+    height: auto;
+}
+.card-10-home {
+    width: 90px; 
+    height: auto;
+}
+.card-11-home {
+    width: 90px; 
+    height: auto;
+}
+.card-12-home {
+    width: 90px;
+    height: auto;
+}
+.card-13-home {
+    width: 90px;
+    height: auto;
+}
+.card-14-home {
+    width: 90px; 
+    height: auto;
+}
+.card-15-home {
+    width: 90px;
+    height: auto;
+}
+.card-16-home {
+    width: 90px; 
+    height: auto;
+}
+.card-17-home {
+    width: 90px; 
+    height: auto;
+}
+.card-18-home {
+    width: 90px; 
+    height: auto;
+}
+.seta-1 {
+    width: 40px;  
+}
+.seta-2 {
+    width: 40px;  
+}
+.seta-3 {
+    width: 40px;  
+}
+.seta-4 {
+    width: 40px;  
+}
+.seta-5 {
+    width: 40px;  
+}
+.seta-6 {
+    width: 40px;  
+}
+.seta-7 {
+    width: 40px;  
+}
+.seta-8 {
+    width: 40px;  
+}
+.seta-9 {
+    width: 40px;  
+}
+.seta-10 {
+    width: 40px;  
+}
+.page-content {
+    gap: 10px;
+}
+.timeline-page {
+    padding: 0 540px;
+}
+.fita-3-home {
+    width: 280px;
+    margin-left: 47px;
+    margin-top: 282px;
+}
+.botao-1-home {
+    width: 27px;
+    margin-left: 70px;
+    margin-top: 413px;
+}
+.botao-2-home {
+    width: 27px;
+    margin-left: 170px;
+    margin-top: 413px;
+}
+.botao-3-home {
+    width: 27px;
+    margin-left: 270px;
+    margin-top: 413px;
+}
+.modal-conteudo {
+    max-width:40%; 
+    transform: translate(-185px, 70px)
+}
+.botao-fechar {
+    top: 20px;  
+    right: -10px;
+    font-size: 28px; 
+    }
+    /*area de ediçao galeria*/
+.fundo-3-home {
+    width: 395px;
+    margin-top: 480px;
+}
+.separador-3-home {
+    width: 395px;
+    margin-left: -8px;
+    margin-top: 291px;
+}
+.moldura-1-home {
+    width: 140px;
+    margin-left: -20px;
+    margin-top: 482px;
+    filter: drop-shadow(4px 3px 1px rgba(0, 0, 0, 0.25));
+}
+.moldura-2-home {
+    width: 180px;
+    margin-left: 50px;
+    margin-top: 483px;
+    filter: drop-shadow(4px 3px 1px rgba(0, 0, 0, 0.25));
+}
+.moldura-3-home {
+    width: 160px;
+    margin-left: 155px;
+    margin-top: 484px;
+    filter: drop-shadow(4px 3px 1px rgba(0, 0, 0, 0.25));
+}
+.moldura-4-home {
+    width: 120px;
+    margin-left: 270px;
+    margin-top: 484px;
+    filter: drop-shadow(4px 3px 1px rgba(0, 0, 0, 0.25));
+}
+
+
+
+
+
+
+
+
+
 }
