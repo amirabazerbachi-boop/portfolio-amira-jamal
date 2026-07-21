@@ -2443,13 +2443,228 @@ nav a img {
     margin-top: 484px;
     filter: drop-shadow(4px 3px 1px rgba(0, 0, 0, 0.25));
 }
-
-
-
-
-
-
-
-
-
+.titulo-1-home {
+    width: 60px;
+    margin-left: 23px;
+    margin-top: 608px;
+}
+.titulo-2-home {
+    width: 60px;
+    margin-left: 110px;
+    margin-top: 642px;
+}
+.titulo-3-home {
+    width: 60px;
+    margin-left: 205px;
+    margin-top: 630px;
+}
+.titulo-4-home {
+    width: 60px;
+    margin-left: 302px;
+    margin-top: 588px;
+}
+.modal-overlay {
+    top: 220px;
+    }
+.modal-conteudo {
+    max-width: 40%;
+    }
+.botao-fechar {
+    top: 50px;
+    right: 20px;
+    font-size: 30px;
+    }
+/*responsividade: area de habilidades*/
+.retangulo {
+    width: 395px;           
+    height: 400px;            
+    margin-left: -8px;
+    margin-top: 707px; 
+    position: absolute;
+}
+.retangulo-2 {
+    position: absolute;
+    width: 395px;           
+    height: 30px;           
+    background-color: #e798ff; 
+    margin-left: -8px;
+    margin-top: 706px;
+}
+.caderno-habilidades-home {
+  width: 350px;                
+  margin-left: 15px;
+  margin-top: 690px;
+}
+.habilidade-html-home {
+    width: 55px;
+    margin-left: 60px;
+    margin-top: 780px;
+}
+.habilidade-css-home {
+    width: 55px;
+    margin-left: 120px;
+    margin-top: 780px;
+}
+.habilidade-git-home {
+    width: 55px;
+    margin-left: 60px;
+    margin-top: 837px;
+}
+.habilidade-ux-home {
+    width: 55px;
+    margin-left: 120px;
+    margin-top: 837px;
+}
+.habilidade-equipe-home {
+    width: 55px;
+    margin-left: 60px;
+    margin-top: 893px;
+}
+.habilidade-comunicaçao-home {
+    position: absolute;
+    pointer-events: none;
+    width: 55px;
+    margin-left: 120px;
+    margin-top: 893px;
+    z-index: 1;
+}
+.deco-habilidade7 {
+    width: 210px;
+    margin-left: 174px;
+    margin-top: 760px;
+}
+.deco-habilidade9 {
+    width: 90px;
+    margin-left: 235px;
+    margin-top: 820px;
+}
+.deco-habilidade {
+    width: 35px;
+    margin-left: 230px;
+    margin-top: 820px;
+}
+.deco-habilidade2 {
+    width: 45px;
+    margin-left: 290px;
+    margin-top: 770px;
+}
+.deco-habilidade3 {
+    width: 35px;
+    margin-left: 220px;
+    margin-top: 910px;
+}
+.deco-habilidade4 {
+    width: 40px;
+    margin-left: 300px;
+    margin-top: 860px;
+}
+.deco-habilidade5 {
+    width: 45px;
+    margin-left: 290px;
+    margin-top: 910px;
+}
+.deco-habilidade6 {
+    width: 40px;
+    margin-left: 230px;
+    margin-top: 775px;
+}
+.deco-habilidade10 {
+    width: 170px;
+    margin-left: -90px;
+    margin-top: 850px;
+}
+.deco-habilidade11 {
+    width: 170px;
+    margin-left: 210px;
+    margin-top: 880px;
+}
+.deco-habilidade12 {
+    width: 110px;
+    margin-left: -20px;
+    margin-top: 730px;
+}
+/*responsividade: ediçao do footer-home*/
+.rodape {
+    width: 397px;
+    margin-top: 740px;
+}
+.logo-rodape {
+    width: 45px;
+    margin-left: -10px;
+    margin-top: 1040px;
+    filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.219));
+}
+.titulo-redes {
+    width: 60px;
+    margin-left: 50px;
+    margin-top: 1035px;
+    filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.219));
+}
+.titulo-contato-rodape {
+    width: 60px;
+    margin-left: 160px;
+    margin-top: 1035px;
+    filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.219));
+}
+.titulo-creditos {
+    width: 60px;
+    margin-left: 280px;
+    margin-top: 1035px;
+    filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.219));
+}
+.insta-copia {
+    width: 10px;
+    margin-left: 50px;
+    margin-top: 1082px;
+}
+.linkedin-copia {
+    width: 10px;
+    margin-left: 50px;
+    margin-top: 1100px;
+}
+.git-copia {
+    width: 10px;
+    margin-left: 50px;
+    margin-top: 1117px;
+}
+.mail-copia {
+    width: 10px;
+    margin-left: 150px;
+    margin-top: 1082px;
+}
+.creditos {
+    width: 160px;
+    margin-left: 250px;
+    margin-top: 976px;
+}
+.instagram-1 {
+    width: 50px;
+    margin-left: 60px;
+    margin-top: 1063px;
+}
+.git-1 {
+    width: 60px;
+    margin-left: 60px;
+    margin-top: 1068px;
+}
+.linkedin-1 {
+    width: 60px;
+    margin-left: 62px;
+    margin-top: 1050px;
+}
+.email-1 {
+    width: 70px;
+    margin-left: 163px;
+    margin-top: 1023px;
+}
+.ano-rodape {
+    width: 90px;
+    margin-left: 5px;
+    margin-top: 1045px;
+}
+.titulo-h-home {
+    width: 240px;
+    margin-left: 75px;
+    margin-top: 700px ;
+}
 }
